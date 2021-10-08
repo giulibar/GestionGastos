@@ -11,17 +11,55 @@
 ### Elicitación
 
 ```text
-Entrevistas
-Cuestionarios
-Observación
-Ingeniería Inversa
-```
+Entrevista
 
-#### 
+Conclusiones de la entrevista
+
+
+
+
+Cuestionario
+
+
+
+
+Observación
+
+
+
+
+Ingeniería Inversa
+
+
+
+
+```
 
 ### Especificación
 
+Actores:
+
+Requerimientos funcionales:
+
+RF1:
+
+RF2:
+
+RF3:
+
+...
+
+Requerimientos no funcionales:
+
+RNF1:
+
+RNF2:
+
+...
+
 ### Validación y verificación
+
+
 
 ### Reflexión
 
