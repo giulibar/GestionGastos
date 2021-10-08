@@ -1,4 +1,4 @@
-# Requerimientos Funcionales
+# Requerimientos
 
 Requerimientos Funcionales
 
