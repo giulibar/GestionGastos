@@ -6,17 +6,15 @@ Integrantes: Giuliano Bardecio y Vittorio Caiafa
 
 ## Fundamentos de ingenieria de software
 
-Obligatorio 1
-
-## GestionGastos
-
-
+## Obligatorio 1 - GestionGastos
 
 #### Objetivo general: Ayudar a personas que no poseen herramientas de gestión de gastos a administrar sus finanzas de una mejor forma.
 
+
+
 ### Repositorio Git
 
-Para el repositorio nos organizamos creando un reporitorio en GitHub el cual lo asociamos con la aplicacion gitbook para ir agregando informacion y contenido en el README.md.
+Para esto decidimos crear un repositorio en GitHub el cual lo asociamos con la aplicación gitbook para ir agregando información y contenido en el README.md.
 
 
 
@@ -32,9 +30,9 @@ Entrevista
 
 Cuestionario
 
-Observacion
+Observación
 
-Ingenieria inversa
+Ingeniería inversa
 
 
 
