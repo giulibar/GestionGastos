@@ -1,4 +1,4 @@
-# Principal
+# PRINCIPAL
 
 ## Fundamentos de ingenieria de software
 
