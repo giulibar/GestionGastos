@@ -1,4 +1,4 @@
-# Initial page
+# Principal
 
 ## GestionGastos
 
@@ -8,7 +8,13 @@
 
 Para el repositorio nos organizamos 
 
+
+
 ### Versionado
+
+
+
+
 
 ### Elicitación
 
