@@ -1,10 +1,10 @@
 # Principal
 
+## Fundamentos de ingenieria de software
+
 Docente: Alejandro Adorjan
 
 Integrantes: Giuliano Bardecio y Vittorio Caiafa
-
-## Fundamentos de ingenieria de software
 
 ## Obligatorio 1 - GestionGastos
 
