@@ -1,4 +1,4 @@
-# PRINCIPAL
+# Principal
 
 ## Fundamentos de ingenieria de software
 
@@ -20,7 +20,7 @@ Para esto decidimos crear un repositorio en GitHub el cual lo asociamos con la a
 
 ### Versionado
 
-Para las versiones y los commits de cada integrante se puede observar cada uno de los cambios realizados en el archivo.
+
 
 
 
