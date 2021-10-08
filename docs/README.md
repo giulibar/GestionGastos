@@ -1,20 +1,12 @@
 # Principal
 
-## Fundamentos de ingenieria de software
-
-Docente: Alejandro Adorjan
-
-Integrantes: Giuliano Bardecio y Vittorio Caiafa
-
-## Obligatorio 1 - GestionGastos
+## GestionGastos
 
 #### Objetivo general: Ayudar a personas que no poseen herramientas de gestión de gastos a administrar sus finanzas de una mejor forma.
 
-
-
 ### Repositorio Git
 
-Para esto decidimos crear un repositorio en GitHub el cual lo asociamos con la aplicación gitbook para ir agregando información y contenido en el README.md.
+Para el repositorio nos organizamos 
 
 
 
@@ -30,9 +22,9 @@ Entrevista
 
 Cuestionario
 
-Observación
+Observacion
 
-Ingeniería inversa
+Ingenieria inversa
 
 
 
