@@ -1,7 +1,7 @@
 ---
 description: >-
-  Objetivos: Aplicar buenas prácticas de versionado☑️, uso de ramas separadas de
-  'main' y resumen de commits y evolución del proyecto☑️
+  Objetivos: Aplicar buenas prácticas de versionado, uso de ramas separadas de
+  'main' y resumen de commits y evolución del proyecto.
 ---
 
 # Versionado
