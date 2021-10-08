@@ -6,3 +6,11 @@ description: >-
 
 # Especificación
 
+## Requerimientos funcionales
+
+
+
+## Requerimientos no funcionales
+
+
+
