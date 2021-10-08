@@ -1,6 +1,2 @@
----
-description: cccc
----
-
 # Initial page
 
