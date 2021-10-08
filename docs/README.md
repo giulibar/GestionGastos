@@ -6,34 +6,21 @@
 
 ### Repositorio Git
 
+Para el repositorio nos organizamos 
+
 ### Versionado
 
 ### Elicitación
 
-```text
 Entrevista
-
-Conclusiones de la entrevista
-
-
-
 
 Cuestionario
 
+Observacion
+
+Ingenieria inversa
 
 
-
-Observación
-
-
-
-
-Ingeniería Inversa
-
-
-
-
-```
 
 ### Especificación
 
