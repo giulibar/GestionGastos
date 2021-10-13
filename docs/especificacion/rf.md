@@ -2,7 +2,13 @@
 
 RF1: Agregar un ingreso
 
+Actor:
+
+Prioridad:
+
 RF2: Agregar un gasto
+
+...
 
 RF3: Elegir categoría del gasto
 
