@@ -2,11 +2,11 @@
 
 ## Fundamentos de ingenieria de software
 
+### Obligatorio 1 - GestionGastos
+
 Docente: Alejandro Adorjan
 
 Integrantes: Giuliano Bardecio y Vittorio Caiafa
-
-## Obligatorio 1 - GestionGastos
 
 #### Objetivo general: Ayudar a personas que no poseen herramientas de gestión de gastos a administrar sus finanzas de una mejor forma.
 
@@ -65,4 +65,3 @@ RNF2:
 
 
 ### Reflexión
-
