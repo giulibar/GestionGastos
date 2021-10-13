@@ -7,8 +7,6 @@ description: >-
 
 # Elicitación
 
-## Elicitación
-
 ### Ingeniería inversa
 
 Nos basamos en la aplicación [mobills](https://www.mobillsapp.com/es) que anteriormente uno de los integrantes del equipo utilizo para manejar sus sus gastos.
