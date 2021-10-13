@@ -8,6 +8,6 @@ description: >-
 
 ### Versionado
 
-Utilizamos la herramienta GitBook que nos permite conectar nuestra cuenta de GitHub para realizar los commits con un comentario sobre el cambio que se realizo y el nombre de la persona que lo hizo.
+Utilizamos la herramienta GitBook que nos permite conectar nuestra cuenta de GitHub para realizar los commits al repositorio con un comentario sobre el cambio que se realizó y el nombre de la persona que lo hizo.
 
 Utilizamos dos ramas, en la rama develop es donde vamos a trabajar y en la rama main tendremos nuestro proyecto principal.
