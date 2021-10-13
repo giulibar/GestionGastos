@@ -13,9 +13,14 @@ description: >-
 
 Nos basamos en la aplicación [mobills](https://www.mobillsapp.com/es) que anteriormente uno de los integrantes del equipo utilizo para manejar sus sus gastos.
 
+Conclusiones de Ingenieria inversa:
 
+* Se debe poder agregar un ingreso y gasto de forma intuitiva y fácil mediante iconos en la app
+* Para cada ingreso/gasto se puede elegir una categoria ej: comida, ropa, inversion, etc y se pueden 
 
+### Lluvia de ideas
 
+* Se pueden crear categori
 
 ### Entrevista
 
