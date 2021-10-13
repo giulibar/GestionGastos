@@ -23,10 +23,10 @@ Conclusiones de Ingenieria inversa:
 
 ### Lluvia de ideas
 
-* Se pueden crear categorías personalizadas 
-* Se pueden crear eventos y crear gastos para ese evento
+* Crear categorías personalizadas 
+* Crear eventos y asociar gastos para ese evento
 * Se pueden dividir los gastos de un evento entre las personas que asistieron
-* Se puede enviar dinero a un amigo y cada transferencia se vera reflejada en la cuenta
+* Se puede enviar dinero y pagar utilizando criptomonedas ya que es mas sencillo de implementar
 * Buscador que retorna los gastos/ingresos cuya descripción coincide con lo que se ingreso
 
 ### Entrevista
