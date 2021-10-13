@@ -13,7 +13,7 @@ Nos basamos en la aplicación [mobills](https://www.mobillsapp.com/es) que anter
 
 Conclusiones de Ingenieria inversa:
 
-* Se debe poder agregar un ingreso y gasto de forma intuitiva y fácil mediante iconos en la app
+* Agregar un ingreso/gasto de forma intuitiva y fácil mediante iconos en la app
 * A cada ingreso/gasto se le puede adjuntar una descripción
 * Para cada ingreso/gasto se puede elegir una categoría ej: comida, ropa, inversión, etc.
 * Se puede ver el saldo actual de la cuenta
@@ -27,6 +27,7 @@ Conclusiones de Ingenieria inversa:
 * Se pueden crear eventos y crear gastos para ese evento
 * Se pueden dividir los gastos de un evento entre las personas que asistieron
 * Se puede enviar dinero a un amigo y cada transferencia se vera reflejada en la cuenta
+* Buscador que retorna los gastos/ingresos cuya descripción coincide con lo que se ingreso
 
 ### Entrevista
 

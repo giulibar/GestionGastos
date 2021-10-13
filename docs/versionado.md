@@ -8,5 +8,6 @@ description: >-
 
 ### Versionado
 
-Para las versiones y los commits de cada integrante se puede observar cada uno de los cambios realizados en el github. Utilizamos la pagina gitbiook, la cual nos permite editar el archivo de MisGastos pudiendo hacer 'save' de los cambios realizados por cada usuario y luego un 'merge' de los mismos, los cuales se subirian de manera inmediata al GitHub del trabajo.
+Utilizamos la herramienta GitBook que nos permite conectar nuestra cuenta de GitHub para realizar los commits con un comentario sobre el cambio que se realizo y el nombre de la persona que lo hizo.
 
+Utilizamos dos ramas, en la rama develop es donde vamos a trabajar y en la rama main tendremos nuestro proyecto principal.
