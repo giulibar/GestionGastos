@@ -16,11 +16,19 @@ Nos basamos en la aplicación [mobills](https://www.mobillsapp.com/es) que anter
 Conclusiones de Ingenieria inversa:
 
 * Se debe poder agregar un ingreso y gasto de forma intuitiva y fácil mediante iconos en la app
-* Para cada ingreso/gasto se puede elegir una categoria ej: comida, ropa, inversion, etc y se pueden 
+* A cada ingreso/gasto se le puede adjuntar una descripción
+* Para cada ingreso/gasto se puede elegir una categoría ej: comida, ropa, inversión, etc.
+* Se puede ver el saldo actual de la cuenta
+* Mostrar grafico con gastos e ingresos por categoría
+* Se puede crear un presupuesto de dinero mensual
+* Es posible ver un calendario con la actividad de la cuenta 
 
 ### Lluvia de ideas
 
-* Se pueden crear categori
+* Se pueden crear categorías personalizadas 
+* Se pueden crear eventos y crear gastos para ese evento
+* Se pueden dividir los gastos de un evento entre las personas que asistieron
+* Se puede enviar dinero a un amigo y cada transferencia se vera reflejada e
 
 ### Entrevista
 
