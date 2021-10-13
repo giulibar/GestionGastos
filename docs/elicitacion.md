@@ -26,13 +26,23 @@ Conclusiones de Ingenieria inversa:
 * Se pueden crear categorías personalizadas 
 * Se pueden crear eventos y crear gastos para ese evento
 * Se pueden dividir los gastos de un evento entre las personas que asistieron
-* Se puede enviar dinero a un amigo y cada transferencia se vera reflejada e
+* Se puede enviar dinero a un amigo y cada transferencia se vera reflejada en la cuenta
 
 ### Entrevista
 
-Para la entrevista tratamos de ser lo mas empáticos y cercanos al entrevistado de manera que pudiéramos ver sus reacciones y respuestas así obteniendo una buena charla e información brindada. La mayoría de las preguntas son enfocadas a nivel personal
+Entrevistamos a una persona que tiene
 
-### Lluvia de ideas
+Preguntas:
+
+Tiene un trabajo estable actualmente?
+
+Ve necesario/util una aplicacion para llevar un registro de sus finanzas?
+
+Se tomaria el tiempo de agragar un gasto a la app cada vez que lo realiza o seria imprescindible que la app lo agrege automaticamente por usted?
+
+Que metodos de pago utiliza mas frecuentemente?
+
+
 
 
 
