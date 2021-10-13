@@ -34,8 +34,6 @@ Conclusiones de Ingeniería inversa:
 
 ### Entrevista
 
-Entrevistamos a una persona que tiene
-
 Preguntas:
 
 Tiene un trabajo estable actualmente?
