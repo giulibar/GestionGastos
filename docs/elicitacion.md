@@ -26,8 +26,11 @@ Conclusiones de Ingenieria inversa:
 * Crear categorías personalizadas 
 * Crear eventos y asociar gastos para ese evento
 * Se pueden dividir los gastos de un evento entre las personas que asistieron
-* Se puede enviar dinero y pagar utilizando criptomonedas ya que es mas sencillo de implementar
 * Buscador que retorna los gastos/ingresos cuya descripción coincide con lo que se ingreso
+* Apartado DeFi donde se puede crear una cuenta en la que usuarios pueden cambiar dinero fiat por dinero on-chain p2p, se ofrecen diferentes productos de inversión.
+* Se pueden crear apuestas e invitar amigos a unirse, a cada apuesta se le asigna un ticket de ingreso, una fecha limite y un administrador que decide el resultado
+
+
 
 ### Entrevista
 
