@@ -8,11 +8,13 @@ description: >-
 
 ### Actores
 
-* Personal
-* Empresa
+* Usuario
+* Tester
 
 ## Requerimientos funcionales
+
 
 Los requerimientos funcionales son todos aquellos que permiten al sistema funcionar con sus presencia, manteniendo orden y estructura de la información ingresada.
 
 ## Requerimientos no funcionales
+
