@@ -34,7 +34,7 @@ Conclusiones de Ingeniería inversa:
 
 ### Entrevista
 
-Posibles preguntas para futura entrevista:
+Posibles preguntas para futuras entrevistas:
 
 1\) Tiene un trabajo estable actualmente?
 
