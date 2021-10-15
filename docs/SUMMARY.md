@@ -1,6 +1,7 @@
 # Table of contents
 
-* [PRINCIPAL](README.md)
+
+* [Principal](README.md)
 * [Repositorio Git](repositorio-git.md)
 * [Versionado](versionado.md)
 * [Elicitación](elicitacion.md)
