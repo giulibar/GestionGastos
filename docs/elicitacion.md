@@ -52,11 +52,9 @@ La entrevista es una manera de obtener información sobre un tema especifico que
 
 7\) ¿Ve útil una aplicación que le de consejos de ahorro e inversión? 
 
-### Conclusiones de la entrevista: // después de hacerlas
+### Conclusiones de la entrevista:
 
-#### Especulaciones
-
-* Pudimos notar que la mayoría de los entrevistados no posee un sitio al que acuda recurrentemente para tener un manejo de sus gastos e ingresos, por lo menos para los que no superaban la edad de 21 años. Para adultos entrevistados ya mas grandes, recolectamos que planificaban sobre hojas de excel o en hojas de papel anotando cada cambio que hubo que haya afectado las cifras.
+*
 *
 *
 *
