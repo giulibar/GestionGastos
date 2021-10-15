@@ -7,6 +7,7 @@ description: >-
 
 # Elicitación
 
+
 ### Ingeniería inversa
 
 Nos basamos en la aplicación [mobills](https://www.mobillsapp.com/es) que anteriormente uno de los integrantes del equipo utilizo para manejar sus sus gastos.
@@ -45,6 +46,7 @@ Posibles preguntas para futura entrevista:
 3\) Se tomaría el tiempo de agragar un gasto a la app cada vez que lo realiza o seria imprescindible que la app lo agrege automáticamente por usted?
 
 4\) Que métodos de pago utiliza mas frecuentemente?
+
 
 
 

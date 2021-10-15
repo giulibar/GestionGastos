@@ -1,5 +1,6 @@
 # RF
 
+
 ### RF1: Agregar un ingreso
 
 Actor:
@@ -19,3 +20,4 @@ Prioridad:
 ### RF6: Agregar contactos para realizar transacciones
 
 ### RF7: Visualización de gastos mediante gráficas
+
