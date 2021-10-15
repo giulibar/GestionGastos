@@ -34,13 +34,13 @@ Nos basamos en la aplicación [mobills](https://www.mobillsapp.com/es) que anter
 
 ## Entrevista
 
-La entrevista es una manera de obtener información sobre un tema especifico que propone el entrevistador para así poder 
+La entrevista es una manera de obtener información sobre un tema especifico que propone el entrevistador para poder así obtener respuestas y conclusiones para algunas preguntas. Luego estas se rejuntan de modo que se pueda obtener una visión global de lo respondido y llegar a una conclusión.
 
 #### Preguntas:
 
-1\) ¿Tiene un trabajo estable actualmente? ¿Genera buenos ingresos?
+1\) ¿Tiene un trabajo estable actualmente?
 
-2\) ¿Tiene actualmente alguna forma de gestionar sus gastos? ¿Cual?
+2\) ¿Tiene actualmente alguna forma de gestionar sus gastos? ¿Cuál?
 
 3\) ¿Usted ahorra parte de sus ingresos? ¿Posee inversiones? De no ser así, ¿por qué?
 
