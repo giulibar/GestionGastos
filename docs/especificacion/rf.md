@@ -1,49 +1,57 @@
 # RF
 
-### RF1: Agregar un ingreso
+## RF1: Agregar un ingreso/gasto
 
-Actor:
+Descripcion: Se le permite al usuario ingresar mediante un boton personalizado un ingreso y con otro un gasto.
 
-Prioridad:
+Actor: Usuario (Personal/Empresa)
 
-### RF2: Agregar un gasto
+Prioridad: Alta
 
-Actor:
+## RF2: Elegir categoría del gasto
 
-Prioridad:
+Descripcion: 
 
-### RF3: Elegir categoría del gasto
+Actor: Usuario (Personal)
 
-Actor:
+Prioridad: Media
 
-Prioridad:
+## RF3: Conectar a Wallet
 
-### RF4: Conectar a Wallet
+Descripcion: 
 
-Actor:
+Actor: 
 
-Prioridad:
+Prioridad: Media
 
-### RF5: Visualización de gastos e ingresos totales (balance)
+## RF4: Visualización de gastos e ingresos totales (balance)
 
-Actor:
+Descripcion: 
 
-Prioridad:
+Actor: 
 
-### RF6: Agregar contactos
+Prioridad: Media
 
-Actor:
+## RF5: Agregar contactos
 
-Prioridad:
+Descripcion: 
 
-### RF7: Visualización de gastos mediante gráficas
+Actor: 
 
-Actor:
+Prioridad: Alta
 
-Prioridad:
+## RF6: Visualización de gastos mediante gráficas
 
-### RF8: Realizar transacciones
+Descripcion: 
 
-Actor:
+Actor: 
 
-Prioridad:
+Prioridad: Media
+
+## RF7: Realizar transacciones
+
+Descripcion: 
+
+Actor: 
+
+Prioridad: Alta
