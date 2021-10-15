@@ -38,6 +38,8 @@ Posibles preguntas para futura entrevista:
 
 1\) Tiene un trabajo estable actualmente?
 
+¿de qué manera gestiona sus gastos hoy en día?
+
 2\) Ve necesario/útil una aplicación para llevar un registro de sus finanzas?
 
 3\) Se tomaría el tiempo de agragar un gasto a la app cada vez que lo realiza o seria imprescindible que la app lo agrege automáticamente por usted?
