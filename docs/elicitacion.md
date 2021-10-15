@@ -36,16 +36,16 @@ Conclusiones de Ingeniería inversa:
 
 Posibles preguntas para futuras entrevistas:
 
-1\) Tiene un trabajo estable actualmente?
+1\) ¿Tiene un trabajo estable actualmente?
 
-2\) Tiene actualmente alguna forma de gestionar sus gastos? Cual?
+2\) ¿Tiene actualmente alguna forma de gestionar sus gastos? Cual?
 
-3\) Usted ahorra parte de sus ingresos? posee inversiones? NO - por que?
+3\) ¿Usted ahorra parte de sus ingresos? ¿posee inversiones? En caso de no poseer, ¿por qué?
 
-4\) Ve necesario/útil una aplicación para llevar un registro de sus finanzas?
+4\) ¿Ve necesario/útil una aplicación para llevar un registro de sus finanzas?
 
-5\) Se tomaría el tiempo de agregar un gasto a la app manualmente o seria imprescindible que la app lo agregue automáticamente por usted?
+5\) ¿Se tomaría el tiempo de agregar un gasto a la app manualmente o seria imprescindible que la app lo agregue automáticamente por usted?
 
-6\) Que métodos de pago utiliza mas frecuentemente?
+6\) ¿Que métodos de pago utiliza mas frecuentemente?
 
-7\) Ve útil una aplicación que le de consejos de ahorro e inversión ? 
+7\) ¿Ve útil una aplicación que le de consejos de ahorro e inversión? 
