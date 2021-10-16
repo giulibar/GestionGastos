@@ -7,5 +7,8 @@
 * [Especificación](especificacion/README.md)
   * [Requerimientos funcionales](especificacion/rf.md)
   * [Requerimientos no funcionales](especificacion/rnf.md)
+  * [Historias de usuario](especificacion/historias-de-usuario.md)
+  * [Casos de uso](especificacion/casos-de-uso.md)
+  * [Bocetos UI](especificacion/bocetos-ui.md)
 * [Validación y verificación](validacion-y-verificacion.md)
 * [Reflexión](reflexion.md)
