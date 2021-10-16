@@ -31,6 +31,7 @@ Nos basamos en la aplicación [mobills](https://www.mobillsapp.com/es) que anter
 * Buscador que retorna los gastos/ingresos cuya descripción coincide con lo que se ingreso
 * Apartado de ahorro donde se aconseja al usuario y se brinda distintas posibilidades de inversión
 * Implementar método de pago blockchain
+* Se puede crear un grupo del cual administrar los gastos ej: familia, empresa, organización
 
 ## Entrevista
 
@@ -74,7 +75,7 @@ Luego de realizar las entrevistas concluimos con que para esta app se podrían d
 * Características
 * ...
 
-### Familia
+### Grupo
 
 ![Nombre de usuario familia](<.gitbook/assets/user familia.png>)
 
