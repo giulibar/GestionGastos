@@ -20,6 +20,8 @@ Los requerimientos funcionales son todos aquellos que permiten al sistema funcio
 
 Los requerimientos no funcionales son los que especifican criterios para evaluar la operación de un servicio de tecnología de información, en contraste con los requerimientos funcionales que especifican los comportamientos específicos. Por lo general, para los requerimientos no funcionales se detalla en la Arquitectura del Sistema, mientras que el de los requerimientos funcionales se especifica en el diseño.
 
-## Use Cases
+## Historias de usuario
+
+## Casos de uso
 
 ## Bocetos de IU
