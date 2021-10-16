@@ -61,23 +61,26 @@ La entrevista es una manera de obtener información sobre un tema especifico que
 
 ## User Personas
 
+Luego de realizar las entrevistas concluimos con que para esta app se podrían dividir los usuarios entre 3 tipos, de los cuales el usuarios podrá elegir uno para la creación de su perfil.
+
 ### Personal
 
 ![Nombre de usuario personal](<.gitbook/assets/user personal (1).png>)
 
-*
-*
+* Nombre
+* Características
+* ...
 
 ### Familia
 
 ![Nombre de usuario familia](<.gitbook/assets/user familia.png>)
 
-* l
-*
+* Nombre/s
+* Características
 
 ### Empresa
 
 ![Nombre de usuario empresa](<.gitbook/assets/user empresa.png>)
 
-* h
-*
+* Nombre de la empresa
+* Características
