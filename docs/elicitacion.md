@@ -55,13 +55,18 @@ La entrevista es una manera de obtener información sobre un tema especifico que
 
 ### Conclusiones de la entrevista:
 
-* La mayoría de los entrevistados posee trabajo actualmente, por lo que estaría bueno que la aplicación maneje bien sus gastos y de manera ordenada y concisa.
-* En el caso de dos entrevistados (contadores), realizaban una plantilla en excel y una vez iban a hacer el balance total del dinero colocaban de un lado los gastos con tarjeta de crédito que se puede ver desde la aplicaron respectiva, luego para los gastos con efectivo se coloca los montos de los tickets antes de tirarlos
-*
+* A las personas promedio les sería útil una app que registre ingresos y gastos para llevar un mayor control sobre sus finanzas.
+* Valoran que sea sencilla de utilizar de forma que no requiera mucho tiempo.
+* Vimos que algunos de los entrevistados manejan plantillas de Excel para controlar sus gastos por lo que sería el mayor “competidor” en el área. Podría ser útil y una funcionalidad a agregar en un futuro el poder descargar los datos en formato CSV.
+* Se valora la funcionalidad de poder agregar gastos/ingresos fijos por ej: sueldo, gastos (ute, ose, antel, swat, gastos comunes, etc)
+* Se valora que el sistema actualice los datos automáticamente estando conectado a la Cuenta de Banco, dado que existen muchos métodos de pago como: tarjetas de débito/crédito, cuentas bancarias, efectivo. Habría que obtener los datos del lugar donde el usuario recibe sus ingresos.
+* La mayoría de los entrevistados ahorran parte de su dinero por lo que les parece buena idea que la aplicación les de consejos de ahorro e inversión.
+* Algunos respondieron que no poseen inversiones ya que no tienen el capital necesario ni el conocimiento para hacerlo.
+* Sería útil que la app hiciera un estimativo de cuánto puede gastar el usuario por día hasta llegar a fin de mes teniendo en cuenta el dinero que posee actualmente en la cuenta.
 
 #### Fuentes de informacion:
 
-*
+* mobills
 
 ## User Personas
 
