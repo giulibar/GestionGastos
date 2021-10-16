@@ -64,10 +64,6 @@ La entrevista es una manera de obtener información sobre un tema especifico que
 * Algunos respondieron que no poseen inversiones ya que no tienen el capital necesario ni el conocimiento para hacerlo.
 * Sería útil que la app hiciera un estimativo de cuánto puede gastar el usuario por día hasta llegar a fin de mes teniendo en cuenta el dinero que posee actualmente en la cuenta.
 
-#### Fuentes de informacion:
-
-* mobills
-
 ## User Personas
 
 Luego de realizar las entrevistas concluimos con que para esta app se podrían dividir los usuarios entre 3 tipos, de los cuales el usuarios podrá elegir uno para la creación de su perfil.
