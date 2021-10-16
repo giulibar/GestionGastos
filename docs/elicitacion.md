@@ -82,3 +82,5 @@ Luego de realizar las entrevistas concluimos con que para esta app se podrían d
 
 ### Empresa
 
+![](.gitbook/assets/empresa.png)
+
