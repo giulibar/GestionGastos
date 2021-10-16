@@ -69,26 +69,11 @@ Luego de realizar las entrevistas concluimos con que para esta app se podrían d
 
 ### Personal
 
-![Nombre de usuario personal](<.gitbook/assets/user personal (1).png>)
-
-* Nombre
-* Biografía
-* Objetivos
-* Personalidad
-* Frustraciones
-* Motivaciones
-* Marcas
+![](.gitbook/assets/delfina.png)
 
 ### Grupo
 
-![Nombre de usuario familia](<.gitbook/assets/user familia.png>)
-
-* Nombre/s
-* Características
+![](.gitbook/assets/amigas.png)
 
 ### Empresa
 
-![Nombre de usuario empresa](<.gitbook/assets/user empresa.png>)
-
-* Nombre de la empresa
-* Características
