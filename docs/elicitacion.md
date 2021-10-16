@@ -60,3 +60,24 @@ La entrevista es una manera de obtener información sobre un tema especifico que
 *
 
 ## User Personas
+
+### Personal
+
+![Nombre de usuario personal](<.gitbook/assets/user personal (1).png>)
+
+*
+*
+
+### Familia
+
+![Nombre de usuario familia](<.gitbook/assets/user familia.png>)
+
+* l
+*
+
+### Empresa
+
+![Nombre de usuario empresa](<.gitbook/assets/user empresa.png>)
+
+* h
+*
