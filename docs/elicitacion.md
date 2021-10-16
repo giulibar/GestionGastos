@@ -37,7 +37,7 @@ Nos basamos en la aplicación [mobills](https://www.mobillsapp.com/es) que anter
 
 La entrevista es una manera de obtener información sobre un tema especifico que propone el entrevistador para poder así obtener respuestas y conclusiones para algunas preguntas. Luego estas se rejuntan de modo que se pueda obtener una visión global de lo respondido y llegar a una conclusión.
 
-#### Preguntas:
+### Preguntas:
 
 1\) ¿Tiene un trabajo estable actualmente?
 
@@ -55,8 +55,8 @@ La entrevista es una manera de obtener información sobre un tema especifico que
 
 ### Conclusiones de la entrevista:
 
-*
-*
+* La mayoría de los entrevistados posee trabajo actualmente, por lo que estaría bueno que la aplicación maneje bien sus gastos y de manera ordenada y concisa.
+* En el caso de dos entrevistados (contadores), realizaban una plantilla en excel y una vez iban a hacer el balance total del dinero colocaban de un lado los gastos con tarjeta de crédito que se puede ver desde la aplicaron respectiva, luego para los gastos con efectivo se coloca los montos de los tickets antes de tirarlos
 *
 
 #### Fuentes de informacion:
@@ -72,8 +72,12 @@ Luego de realizar las entrevistas concluimos con que para esta app se podrían d
 ![Nombre de usuario personal](<.gitbook/assets/user personal (1).png>)
 
 * Nombre
-* Características
-* ...
+* Biografía
+* Objetivos
+* Personalidad
+* Frustraciones
+* Motivaciones
+* Marcas
 
 ### Grupo
 
