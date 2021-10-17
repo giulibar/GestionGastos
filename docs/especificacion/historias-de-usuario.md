@@ -6,25 +6,29 @@
 
 #### Como usuario quiero poder realizar una transacción desde mi cuenta o pedir dinero a un contacto por alguna razón.
 
-#### Criterios de aceptación: 
+### Criterios de aceptación: 
 
-* El usuario debe haber creado una cuenta anteriormente y haber rellenado todos los campos.
+* El usuario debe haber creado una cuenta anteriormente y haber rellenado todos los siguientes campos:
 
-1\) Foto (Opcional)
+1\) Nombre (Obligatorio)
 
-2\) Nombre (Obligatorio)
+2\) Apellido (Obligatorio)
 
-3\) Apellido (Obligatorio)
+3\) Contraseña (Obligatorio)
 
-4\) Contraseña (Obligatorio)
+4\) Mail (Obligatorio)
 
-5\) Mail (Obligatorio)
+5\) Monto inicial (Opcional)
 
-6\) Monto inicial (Obligatorio)
+6\) Monto objetivo (Opcional)
 
-7\) Monto objetivo (Obligatorio)
+* El contacto debe haberme agregado, para agregar a un contacto debo:
 
-* El contacto debe haberme agregado
+1\) Darle al botón contactos desde el menú
+
+2\) Click en el signo de más
+
+3\) Debo escribir el GCiD que se genera de manera aleatoria cada vez que se genera un usuario y lo puedo encontrar en la información de mi cuenta
 
 ## Historia de usuario 2: 
 
