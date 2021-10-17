@@ -67,11 +67,15 @@ La entrevista es una manera de obtener información sobre un tema especifico que
 
 ## User Personas
 
-Luego de realizar las entrevistas concluimos con que para esta app se podrían dividir los usuarios entre 2 tipos, de los cuales el usuarios podrá elegir uno para la creación de su perfil.
+Luego de realizar las entrevistas concluimos con que para esta app se podrían dividir los usuarios entre 3 tipos, de los cuales el usuarios podrá elegir uno para la creación de su perfil.
 
 ### Personal
 
 ![](.gitbook/assets/delfina.png)
+
+### Grupo
+
+![](.gitbook/assets/amigas.png)
 
 ### Empresa
 

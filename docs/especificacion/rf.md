@@ -2,7 +2,7 @@
 
 ## RF1: Registrar usuario
 
-Actor: Usuario (Personal/Familia/Empresa)
+Actor: Usuario (Personal/Empresa)
 
 Descripción: Se debe poder registrar un usuario en el sistema con sus datos asociados
 
@@ -10,7 +10,7 @@ Prioridad: Alta
 
 ## RF2: Agregar un ingreso/gasto
 
-Actor: Usuario (Personal/Familia/Empresa)
+Actor: Usuario (Personal/Empresa)
 
 Descripción: Debe poderse ingresar un ingreso/gasto al sistema y que el mismo se vea reflejado en el saldo actual del usuario, para cada gasto se puede seleccionar la categoría del mismo y escribir una breve descripción.
 
@@ -32,11 +32,19 @@ Descripción: El sistema mostrara una grafica circular/de barras indicando los g
 
 Prioridad: Media
 
-## RF6: Conectar a Wallet
+## RF5: Conectar a Wallet
 
 Actor: Usuario (Personal/Empresa)
 
-Descripción: El que posee cuenta wallet podrá conectarse con la app y visualizar el ingreso y gasto total dentro de la app.
+Descripción: Se puede conectar una wallet para realizar transacciones dentro de la app.
+
+Prioridad: Media
+
+## RF6: Consejos de Ahorro
+
+Actor: Sistema
+
+Descripción: El sistema tendrá un apartado de "consejos" donde se brindaran consejos de ahorro e inversión a los usuarios.
 
 Prioridad: Media
 
@@ -44,7 +52,9 @@ Prioridad: Media
 
 Actor: Usuario (Personal)
 
-Descripción: Cada usuario será identificado por un código único y tendrá la opción de agregar contactos utilizando este identificador, al invitarlo a ser "socios" los usuarios ahora podrán realizar transacciones entre si, crear grupos, etc.
+Descripción: Cada usuario será identificado por un código único y tendrá la opción de agregar contactos utilizando este identificador
+
+, al invitarlo a ser "socios" los usuarios ahora podrán realizar transacciones entre si, crear grupos, etc.
 
 Prioridad: Media
 
@@ -52,7 +62,7 @@ Prioridad: Media
 
 Actor: Usuario (Personal/Empresa)
 
-Descripción: El sistema permite enviar y recibir pagos a los usuarios que hayan sido agregados como "socios", si los usuarios tienen conectada una wallet el sistema le pedirá el monto a enviar y realizara la transacción.
+Descripción: El sistema permite enviar y recibir pagos a los usuarios que hayan sido agregados como "socios", si los usuarios tienen conectada una wallet el sistema le pedirá el monto a enviar y realizara la transacción. Cada transacción realizada se ingresara como [#RF2](rf.md#rf2-agregar-un-ingreso-gasto)
 
 Prioridad: Media
 
@@ -64,7 +74,7 @@ Descripción: El sistema permite crear un grupo y agregar contactos, al grupo se
 
 Prioridad: Media
 
-## RF8: Buscador
+## RF9: Buscador
 
 Actor: Usuario (Personal/Empresa)
 
