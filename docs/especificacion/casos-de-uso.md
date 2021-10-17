@@ -8,11 +8,10 @@
 
 #### Curso normal: 
 
-|   |   |   |
-| - | - | - |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| Accion del actor                     | Reacción del sistema                                              |
+| ------------------------------------ | ----------------------------------------------------------------- |
+| -                                    | Sistema muestra campos de texto para iniciar sesión o registrarse |
+| El usuario llena los campos de texto | El sistema crea el perfil del usuario o lo inicia                 |
 
 #### Curso alternativo: 
 
