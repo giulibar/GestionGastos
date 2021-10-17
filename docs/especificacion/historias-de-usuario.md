@@ -38,3 +38,6 @@
 #### Criterios de aceptación: 
 
 * La cuenta debe estar creada
+* Simplemente hago click en el signo de mas debajo
+* Fijo un monto, categoria y descripcion
+* Solo resta agregar el monto al balance
