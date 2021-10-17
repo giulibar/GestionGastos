@@ -35,7 +35,7 @@
 
 #### Como usuario quiero poder actualizar mi estado actual económico agregando o quitando dinero del balance total.
 
-#### Criterios de aceptación: 
+### Criterios de aceptación: 
 
 * La cuenta debe estar creada
 * Luego hago click en el signo de mas debajo
