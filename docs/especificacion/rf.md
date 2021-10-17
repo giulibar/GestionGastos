@@ -42,7 +42,7 @@ Prioridad: Media
 
 ## RF6: Conectar a Wallet
 
-Actor: Usuario (Personal)
+Actor: Usuario (Personal/Empresa)
 
 Descripción: El que posee cuenta wallet podrá conectarse con la app y visualizar el ingreso y gasto total dentro de la app.
 
@@ -60,7 +60,7 @@ Prioridad: Media
 
 ## RF8: Realizar transacciones
 
-Actor: Usuario (Personal/Familia/Empresa)
+Actor: Usuario (Personal/Empresa)
 
 Descripción: El sistema permite enviar y recibir pagos a los usuarios que hayan sido agregados como "socios", si los usuarios tienen conectada una wallet el sistema le pedirá el monto a enviar y realizara la transacción.
 
