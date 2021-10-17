@@ -18,9 +18,8 @@
 
 4\) Mail
 
-* Hago click en el icono de contactos
-* Hago click en el signo de mas
-* Agrego un contacto mediante su GCiD (numero de identificación de cada usuario, lo puedo localizar junto a todos sus demás datos si hago click en mi perfil desde el menú)
+* Click en el icono de contactos > click en el signo de mas
+* Agrego un contacto mediante su GCiD (numero de identificación de cada usuario, podre encontrar el mio entre todos los datos de mi perfil)
 
 ## Historia de usuario 2: 
 
@@ -30,7 +29,7 @@
 
 ### Criterios de aceptación: 
 
-* Una vez creada la cuenta y todo esta ok
+* Una vez creado mi perfil
 * Debo agregar al contacto para poder interactuar con él:
 
 1\) Click al botón contactos desde el menú
