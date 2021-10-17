@@ -8,19 +8,15 @@
 
 ### Criterios de aceptación: 
 
-* El usuario debe haber creado una cuenta anteriormente y haber rellenado todos los siguientes campos:
+* El usuario debe haber creado una cuenta anteriormente con los siguientes datos obligatorios:
 
-1\) Nombre (Obligatorio)
+1\) Nombre
 
-2\) Apellido (Obligatorio)
+2\) Apellido
 
-3\) Contraseña (Obligatorio)
+3\) Contraseña
 
-4\) Mail (Obligatorio)
-
-5\) Monto inicial (Opcional)
-
-6\) Monto objetivo (Opcional)
+4\) Mail
 
 * El contacto debe haberme agregado, para agregar a un contacto debo:
 
