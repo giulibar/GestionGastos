@@ -18,13 +18,16 @@
 
 4\) Mail
 
-* El contacto debe haberme agregado, para agregar a un contacto debo:
+* Debo agregar al contacto para poder interactuar con él:
 
-1\) Darle al botón contactos desde el menú
+1\) Click al botón contactos desde el menú
 
-2\) Click en el signo de más
+2\) Click en el signo de más (arriba a la derecha)
 
-3\) Debo escribir el GCiD que se genera de manera aleatoria cada vez que se genera un usuario y lo puedo encontrar en la información de mi cuenta
+3\) Ingresar el GCiD (Gastos Casa iD)
+
+* Una vez hechos estos dos pasos, la persona ya esta agregada a los contactos. 
+* Lo siguiente es hacer click sobre el contacto y seleccionar el monto, tipo de moneda y si lo desea enviar o solicitar.
 
 ## Historia de usuario 2: 
 
