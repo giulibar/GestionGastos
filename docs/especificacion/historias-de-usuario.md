@@ -8,9 +8,8 @@
 
 #### Criterios de aceptación: 
 
-*
-*
-*
+* La cuenta debe estar creada
+* El contacto debe haberme agregado
 
 
 
@@ -22,6 +21,4 @@
 
 #### Criterios de aceptación: 
 
-*
-*
-*
+* La cuenta debe estar creada
