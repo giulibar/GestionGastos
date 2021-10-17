@@ -12,7 +12,7 @@ Prioridad: Alta
 
 Actor: Usuario (Personal/Familia/Empresa)
 
-Descripción: Debe poderse ingresar un ingreso/gasto al sistema y que el mismo se vea reflejado en el saldo actual del usuario
+Descripción: Debe poderse ingresar un ingreso/gasto al sistema y que el mismo se vea reflejado en el saldo actual del usuario, para cada gasto se puede seleccionar la categoría del mismo y escribir una breve descripción.
 
 Prioridad: Alta
 
@@ -32,14 +32,6 @@ Descripción: El sistema mostrara una grafica circular/de barras indicando los g
 
 Prioridad: Media
 
-## RF5: Elegir categoría del gasto
-
-Actor: Usuario (Personal/Familia/Empresa)
-
-Descripción: Para cada gasto debe poderse seleccionar la categoría del mismo.
-
-Prioridad: Media
-
 ## RF6: Conectar a Wallet
 
 Actor: Usuario (Personal/Empresa)
@@ -56,8 +48,6 @@ Descripción: Cada usuario será identificado por un código único y tendrá la
 
 Prioridad: Media
 
-
-
 ## RF8: Realizar transacciones
 
 Actor: Usuario (Personal/Empresa)
@@ -65,3 +55,22 @@ Actor: Usuario (Personal/Empresa)
 Descripción: El sistema permite enviar y recibir pagos a los usuarios que hayan sido agregados como "socios", si los usuarios tienen conectada una wallet el sistema le pedirá el monto a enviar y realizara la transacción.
 
 Prioridad: Media
+
+## RF8: Crear grupo
+
+Actor: Usuario (Personal)
+
+Descripción: El sistema permite crear un grupo y agregar contactos, al grupo se le puede asignar un nombre y se le asocian gastos de los miembros asociados.
+
+Prioridad: Media
+
+## RF8: Buscador
+
+Actor: Usuario (Personal/Empresa)
+
+Descripción: Se pueden filtrar las transacciones mediante un buscador que devuelve las coincidencias de la descripción y/o categoría.
+
+Prioridad: Baja
+
+
+
