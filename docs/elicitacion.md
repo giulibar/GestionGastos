@@ -32,6 +32,7 @@ Nos basamos en la aplicación [mobills](https://www.mobillsapp.com/es) que anter
 * Apartado de ahorro donde se aconseja al usuario y se brinda distintas posibilidades de inversión
 * Implementar método de pago blockchain
 * Se puede crear un grupo del cual administrar los gastos ej: familia, empresa, organización
+* Chatear entre los contactos (podría ser arriesgado)
 
 ## Entrevista
 
