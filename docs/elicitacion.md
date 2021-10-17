@@ -81,3 +81,9 @@ Luego de realizar las entrevistas concluimos con que para esta app se podrían d
 
 ![](.gitbook/assets/empresa.png)
 
+## Fuentes de información
+
+* [https://www.mobillsapp.com/es](https://www.mobillsapp.com/es)
+* [http://www.pmoinformatica.com/2017/02/requerimientos-funcionales-ejemplos.html](http://www.pmoinformatica.com/2017/02/requerimientos-funcionales-ejemplos.html)
+* [http://www.pmoinformatica.com/2015/05/requerimientos-no-funcionales-ejemplos.html](http://www.pmoinformatica.com/2015/05/requerimientos-no-funcionales-ejemplos.html)
+* [http://www.pmoinformatica.com/2013/01/requerimientos-no-funcionales-porque.html](http://www.pmoinformatica.com/2013/01/requerimientos-no-funcionales-porque.html)
