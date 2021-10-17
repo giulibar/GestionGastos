@@ -50,6 +50,6 @@
 ### Criterios de aceptación: 
 
 * La cuenta debe estar creada
-* Luego hago click en el signo de mas debajo
+* Click en el signo de mas desde el menú
 * Fijo un monto, categoría y descripción
-* Solo resta agregar el monto al balance
+* Agregar el monto al balance
