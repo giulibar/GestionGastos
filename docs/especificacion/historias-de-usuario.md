@@ -8,10 +8,23 @@
 
 #### Criterios de aceptación: 
 
-* La cuenta debe estar creada
+* El usuario debe haber creado una cuenta anteriormente y haber rellenado todos los campos.
+
+1\) Foto (Opcional)
+
+2\) Nombre (Obligatorio)
+
+3\) Apellido (Obligatorio)
+
+4\) Contraseña (Obligatorio)
+
+5\) Mail (Obligatorio)
+
+6\) Monto inicial (Obligatorio)
+
+7\) Monto objetivo (Obligatorio)
+
 * El contacto debe haberme agregado
-
-
 
 ## Historia de usuario 2: 
 
