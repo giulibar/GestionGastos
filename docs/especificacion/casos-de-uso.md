@@ -22,6 +22,8 @@
 * Aparece un mensaje de alerta diciendo que los datos son incorrectos.
 * Se vuelve al punto numero 2.
 
+![](../.gitbook/assets/1.png)
+
 ## Caso de uso 2
 
 ### Título: Registrarse
@@ -41,6 +43,8 @@
 * El usuario no rellena un campo de texto obligatorio y presiona registrarse.
 * Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
 * Se vuelve al punto numero 2.
+
+![](../.gitbook/assets/2.png)
 
 ## Caso de uso 3
 
@@ -64,6 +68,8 @@
 * El usuario intenta agregar un ingreso o un gasto con monto negativo.
 * Aparece un mensaje de alerta diciendo que los datos son incorrectos.
 * Se vuelve al punto numero 4.
+
+
 
 ## Caso de uso 4
 
