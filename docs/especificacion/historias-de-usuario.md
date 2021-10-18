@@ -77,3 +77,4 @@
 ### Criterios de aceptación:&#x20;
 
 * Que me permita seleccionar un contacto de mi lista de contactos, un monto, una categoría y una descripción
+* Que me descuente el monto enviado a mi balance principal y guarde la transacción con la información ingresada
