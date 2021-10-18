@@ -16,7 +16,23 @@ Descripción: Debe poderse ingresar un ingreso/gasto al sistema y que el mismo s
 
 Prioridad: Alta
 
-## RF3: Visualización de gastos e ingresos totales (balance)
+## RF3: Modificar un ingreso/gasto
+
+Actor: Usuario (Personal/Empresa)
+
+Descripción: Debe poderse modificar un gasto e ingreso, pudiendo cambiar el monto la categoria y la descripción.
+
+Prioridad: Alta
+
+## RF4: Eliminar un ingreso/gasto
+
+Actor: Usuario (Personal/Empresa)
+
+Descripción: Debe poderse eliminar un gasto e ingreso.
+
+Prioridad: Alta
+
+## RF5: Visualización de gastos e ingresos totales (balance)
 
 Actor: Sistema
 
@@ -24,7 +40,7 @@ Descripción: El sistema deberá mostrar el balance total de la cuenta para el u
 
 Prioridad: Alta
 
-## RF4: Visualización de gastos mediante gráficas
+## RF6: Visualización de gastos mediante gráficas
 
 Actor: Sistema
 
@@ -32,7 +48,7 @@ Descripción: El sistema mostrara una grafica circular/de barras indicando los g
 
 Prioridad: Media
 
-## RF5: Conectar a Wallet
+## RF7: Conectar a Wallet
 
 Actor: Usuario (Personal/Empresa)
 
@@ -40,7 +56,7 @@ Descripción: Se puede conectar una wallet para realizar transacciones dentro de
 
 Prioridad: Media
 
-## RF6: Consejos de Ahorro
+## RF8: Consejos de Ahorro
 
 Actor: Sistema
 
@@ -48,7 +64,7 @@ Descripción: El sistema tendrá un apartado de "consejos" donde se brindaran co
 
 Prioridad: Media
 
-## RF7: Agregar contactos
+## RF9: Agregar contactos
 
 Actor: Usuario (Personal)
 
@@ -58,7 +74,7 @@ Descripción: Cada usuario será identificado por un código único y tendrá la
 
 Prioridad: Media
 
-## RF8: Realizar transacciones
+## RF10: Realizar transacciones
 
 Actor: Usuario (Personal/Empresa)
 
@@ -66,7 +82,7 @@ Descripción: El sistema permite enviar y recibir pagos a los usuarios que hayan
 
 Prioridad: Media
 
-## RF8: Crear grupo
+## RF11: Crear grupo
 
 Actor: Usuario (Personal)
 
@@ -74,7 +90,7 @@ Descripción: El sistema permite crear un grupo y agregar contactos, al grupo se
 
 Prioridad: Media
 
-## RF9: Buscador
+## RF12: Buscador
 
 Actor: Usuario (Personal/Empresa)
 
