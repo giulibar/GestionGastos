@@ -15,17 +15,17 @@
 
 #### Curso alternativo:&#x20;
 
-2\. 1. El usuario no rellena un campo de texto obligatorio y presiona iniciar sesión.
+3\. 1. El usuario no rellena un campo de texto obligatorio y presiona iniciar sesión.
 
-2\. 2. Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
+3\. 2. Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
 
-2\. 3. Se vuelve al punto numero 2.
+3\. 3. Se vuelve al punto numero 2.
 
-2\. 4. El usuario intenta iniciar sesión con un perfil que no existe.
+3\. 4. El usuario intenta iniciar sesión con un perfil que no existe.
 
-2\. 5. Aparece un mensaje de alerta diciendo que los datos son incorrectos.
+3\. 5. Aparece un mensaje de alerta diciendo que los datos son incorrectos.
 
-2\. 6. Se vuelve al punto numero 2.
+3\. 6. Se vuelve al punto numero 2.
 
 ![](../.gitbook/assets/1.png)
 
@@ -45,11 +45,11 @@
 
 #### Curso alternativo:&#x20;
 
-4\. 1. El usuario no rellena un campo de texto obligatorio y presiona registrarse.
+5\. 1. El usuario no rellena un campo de texto obligatorio y presiona registrarse.
 
-4\. 2. Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
+5\. 2. Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
 
-4\. 3. Se vuelve al punto numero 2.
+5\. 3. Se vuelve al punto numero 2.
 
 ![](<../.gitbook/assets/2 (2).png>)
 
@@ -69,17 +69,17 @@
 
 #### Curso alternativo:&#x20;
 
-4\. 1. El usuario no rellena un campo de texto obligatorio y presiona agregar.
+5\. 1. El usuario no rellena un campo de texto obligatorio y presiona agregar.
 
-4\. 2. Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
+5\. 2. Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
 
-4\. 3. Se vuelve al punto numero 4.
+5\. 3. Se vuelve al punto numero 4.
 
-4\. 4. El usuario intenta agregar un ingreso o un gasto con monto negativo.
+5\. 4. El usuario intenta agregar un ingreso o un gasto con monto negativo.
 
-4\. 5. Aparece un mensaje de alerta diciendo que los datos son incorrectos.
+5\. 5. Aparece un mensaje de alerta diciendo que los datos son incorrectos.
 
-4\. 6. Se vuelve al punto numero 4.
+5\. 6. Se vuelve al punto numero 4.
 
 ![](../.gitbook/assets/3.png)
 
@@ -100,11 +100,11 @@
 
 #### Curso alternativo:&#x20;
 
-6\. 1. El usuario rellena el campo monto con monto negativo
+7\. 1. El usuario rellena el campo monto con monto negativo
 
-6\. 2. El sistema rechaza y le muestra un mensaje de error
+7\. 2. El sistema rechaza y le muestra un mensaje de error
 
-6\. 3. El sistema vuelve al punto 6
+7\. 3. El sistema vuelve al punto 6
 
 ## Caso de uso 5
 
@@ -123,9 +123,9 @@
 
 #### Curso alternativo:&#x20;
 
-4\. 1. No hay transacciones para eliminar
+5\. 1. No hay transacciones para eliminar
 
-4\. 2. El usuario se queda sin borrar transacciones
+5\. 2. El usuario se queda sin borrar transacciones
 
 ## Caso de uso 6
 
@@ -143,11 +143,11 @@
 
 #### Curso alternativo:&#x20;
 
-4\. 1. El usuario coloca un código de un usuario que no existe
+5\. 1. El usuario coloca un código de un usuario que no existe
 
-4\. 2. El sistema muestra un mensaje diciendo que no existe ningún usuario con ese código
+5\. 2. El sistema muestra un mensaje diciendo que no existe ningún usuario con ese código
 
-4\. 3. El sistema vuelve al punto 4
+5\. 3. El sistema vuelve al punto 4
 
 ## Caso de uso 7
 
@@ -165,22 +165,22 @@
 
 #### Curso alternativo:&#x20;
 
-4\. 1. El usuario no rellena uno de los campos
+5\. 1. El usuario no rellena uno de los campos
 
-4\. 2. El sistema muestra un mensaje diciendo que no relleno todos los campos obligatorios
+5\. 2. El sistema muestra un mensaje diciendo que no relleno todos los campos obligatorios
 
-4\. 3. El sistema vuelve al punto 4
+5\. 3. El sistema vuelve al punto 4
 
-4\. 4. El usuario coloca un monto negativo
+5\. 4. El usuario coloca un monto negativo
 
-4\. 5. El sistema muestra un mensaje diciendo que no pueden haber montos negativos
+5\. 5. El sistema muestra un mensaje diciendo que no pueden haber montos negativos
 
-4\. 6. El sistema vuelve al punto 4
+5\. 6. El sistema vuelve al punto 4
 
-4\. 7. El usuario no selecciona un contacto para realizar la transacción
+5\. 7. El usuario no selecciona un contacto para realizar la transacción
 
-4\. 8. El sistema muestra un mensaje diciendo que no ha seleccionado con quien quiere realizar dicha transacción
+5\. 8. El sistema muestra un mensaje diciendo que no ha seleccionado con quien quiere realizar dicha transacción
 
-4\. 9. El sistema vuelve al punto 4
+5\. 9. El sistema vuelve al punto 4
 
 ![](../.gitbook/assets/5.png)
