@@ -53,16 +53,16 @@
 
 #### Curso normal: 
 
-| Acción del usuario                                                      | Reacción del sistema                                                                    |
-| ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| 1) El usuario quiere agregar a un familiar suyo como contacto en la app | 2) El sistema dispone de un botón con la imagen de dos personas indicando "contactos"   |
-| 3) El usuario hace click en el botón contactos                          | 4) El sistema abre otra pagina con un campo de texto para agregar contactos por su GCiD |
-| 5) El usuario rellena el campo                                          | 6) El sistema agrega ese contacto                                                       |
+| Acción del usuario                                                      | Reacción del sistema                                                                                        |
+| ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| 1) El usuario quiere agregar a un familiar suyo como contacto en la app | 2) El sistema dispone de un botón "contactos" en el menú                                                    |
+| 3) El usuario hace click en el botón contactos                          | 4) El sistema abre otra pagina con un campo de texto para agregar contactos por su código de identificación |
+| 5) El usuario rellena el campo                                          | 6) El sistema agrega ese contacto                                                                           |
 
 #### Curso alternativo: 
 
-* El usuario coloca un GCiD que no existe
-* El sistema muestra un mensaje diciendo que no existe ningún usuario con ese GCiD
+* El usuario coloca un código de un usuario que no existe
+* El sistema muestra un mensaje diciendo que no existe ningún usuario con ese código
 * El sistema vuelve al punto 4
 
 ## Caso de uso 4
@@ -73,8 +73,12 @@
 
 #### Curso normal: 
 
-|   |   |   |
-| - | - | - |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| Acción del usuario                                                               | Reacción del sistema                                             |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| 1) El usuario quiere realizar una transacción con otro contacto                  | 2) El sistema dispone de un botón "contactos" en el menú         |
+| 3) El usuario hace click en el botón contactos                                   | 4) El sistema muestra los contactos y campos de texto a rellenar |
+| 5) El usuario selecciona un contacto y rellena correctamente los campos de texto | 6) El sistema realiza la transacción                             |
+
+#### Curso alternativo: 
+
+*
