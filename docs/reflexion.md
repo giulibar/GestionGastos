@@ -8,7 +8,7 @@ Giuliano Bardecio: Personalmente me pareció un trabajo muy enriquecedor ya que 
 
 También descubrí que las técnicas de elicitacion son muy importantes, principalmente tener un primer contacto con los clientes o usuarios que van a utilizar la aplicación, ya que al principio creíamos que ya sabíamos cuales eran las necesidades y las funcionalidades requeridas por el sistemas, pero las diferentes entrevistas nos dejaron nuevas funcionalidades que no habíamos pensado como por ejemplo hacer un presupuesto diario de lo que se puede gastar hasta cobrar el próximo sueldo, y también nos hizo ver que habían funcionalidades que no eran tan necesarias.
 
-En cuanto al detalle y especificación de quién trabajo sobre qué, realmente se podría decir que el equipo trabajó junto en todo momento sin que alguno avance sin el otro porque trabajamos en equipo y discutiendo distintas formas o ideas de realización de los objetivos propuestos. Además, como era un trabajo de grupo nos pareció la mejor manera de tratarlo/trabajarlo y llegar a lo planteado por el docente.
+Vittorio Caiafa: En cuanto al detalle y especificación de quién trabajo sobre qué, realmente se podría decir que el equipo trabajó junto en todo momento sin que alguno avance sin el otro porque trabajamos en equipo y discutiendo distintas formas o ideas de realización de los objetivos propuestos. Además, como era un trabajo de grupo nos pareció la mejor manera de tratarlo/trabajarlo y llegar a lo planteado por el docente.
 
 Para trabajo individual se podrían ver los commits en el gitHub ya que no hay manera de dividir sobre quien trabajo en que. Por fuera los UI fueron realizados también en equipo diseñando diferentes prototipos y maneras de visualizar la interfaz siendo esta con tema claro o oscuro.
 
