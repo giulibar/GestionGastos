@@ -152,4 +152,6 @@
 
 5\. 3. El usuario no posee el monto a enviar: el sistema muestra mensaje notificando que no tiene saldo suficiente
 
+5\. 4. El usuario no posee contactos, por lo tanto, no puede hacer una transacción
+
 ![](../.gitbook/assets/5.png)
