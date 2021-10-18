@@ -6,14 +6,14 @@
 
 #### Actor: Usuario
 
-#### Curso normal: 
+#### Curso normal:&#x20;
 
 | Accion del actor                        | Reacción del sistema                                   |
 | --------------------------------------- | ------------------------------------------------------ |
 | 1) El usuario quiere iniciar sesión     | 2) Sistema muestra campos de texto para iniciar sesión |
 | 3) El usuario llena los campos de texto | 4) El sistema inicia sesión con los datos del usuario  |
 
-#### Curso alternativo: 
+#### Curso alternativo:&#x20;
 
 * El usuario no rellena un campo de texto obligatorio y presiona iniciar sesión.
 * Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
@@ -30,7 +30,7 @@
 
 #### Actor: Usuario
 
-#### Curso normal: 
+#### Curso normal:&#x20;
 
 | Accion del actor                                 | Reacción del sistema                                                |
 | ------------------------------------------------ | ------------------------------------------------------------------- |
@@ -38,7 +38,7 @@
 | 3) El usuario hace click en el botón registrarse | 4) El sistema lleva a otra pagina con campos de texto para rellenar |
 | 5) El usuario llena los campos de texto          | 6) El sistema registra al usuario con los respectivos datos         |
 
-#### Curso alternativo: 
+#### Curso alternativo:&#x20;
 
 * El usuario no rellena un campo de texto obligatorio y presiona registrarse.
 * Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
@@ -52,7 +52,7 @@
 
 #### Actor: Usuario
 
-#### Curso normal: 
+#### Curso normal:&#x20;
 
 | Acción del actor                                                | Reacción del sistema                                                         |
 | --------------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -60,7 +60,7 @@
 | 3) El usuario presiona el botón de agregar gastos o ingresos    | 4) El sistema muestra una nueva pantalla con campos para rellenar            |
 | 5) El usuario rellena los campos con los datos correspondientes | 6) El sistema agrega un ingreso o gasto                                      |
 
-#### Curso alternativo: 
+#### Curso alternativo:&#x20;
 
 * El usuario no rellena un campo de texto obligatorio y presiona agregar.
 * Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
@@ -73,11 +73,37 @@
 
 ## Caso de uso 4
 
+### Título: Editar un ingreso/gasto
+
+#### Actor: Usuario
+
+#### Curso normal:&#x20;
+
+| Acción del usuario                                | Reacción del sistema |
+| ------------------------------------------------- | -------------------- |
+| 1) El usuario quiere editar un gasto o un ingreso | 2)                   |
+| 3)                                                | 4)                   |
+| 5)                                                | 6)                   |
+
+#### Curso alternativo:&#x20;
+
+## Caso de uso 5
+
+### Título: Editar un ingreso/gasto
+
+#### Actor: Usuario
+
+#### Curso normal:&#x20;
+
+#### Curso alternativo:&#x20;
+
+## Caso de uso 6
+
 ### Título: Agregar contacto
 
 #### Actor: Usuario
 
-#### Curso normal: 
+#### Curso normal:&#x20;
 
 | Acción del usuario                                                      | Reacción del sistema                                                                                        |
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -85,19 +111,19 @@
 | 3) El usuario hace click en el botón contactos                          | 4) El sistema abre otra pagina con un campo de texto para agregar contactos por su código de identificación |
 | 5) El usuario rellena el campo                                          | 6) El sistema agrega ese contacto                                                                           |
 
-#### Curso alternativo: 
+#### Curso alternativo:&#x20;
 
 * El usuario coloca un código de un usuario que no existe
 * El sistema muestra un mensaje diciendo que no existe ningún usuario con ese código
 * El sistema vuelve al punto 4
 
-## Caso de uso 5
+## Caso de uso 7
 
 ### Título: Realizar transacción
 
 #### Actor: Usuario
 
-#### Curso normal: 
+#### Curso normal:&#x20;
 
 | Acción del usuario                                                               | Reacción del sistema                                             |
 | -------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
@@ -105,7 +131,7 @@
 | 3) El usuario hace click en el botón contactos                                   | 4) El sistema muestra los contactos y campos de texto a rellenar |
 | 5) El usuario selecciona un contacto y rellena correctamente los campos de texto | 6) El sistema realiza la transacción                             |
 
-#### Curso alternativo: 
+#### Curso alternativo:&#x20;
 
 * El usuario no rellena uno de los campos
 * El sistema muestra un mensaje diciendo que no relleno todos los campos obligatorios
