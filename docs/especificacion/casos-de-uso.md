@@ -181,4 +181,4 @@
 
 5\. 1. El usuario no coloca un nombre de grupo: el sistema despliega un mensaje de error notificando que le faltan ingresar datos
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14) (1).png>)
