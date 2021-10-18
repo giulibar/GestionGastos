@@ -54,11 +54,11 @@
 
 #### Curso normal: 
 
-| Acción del actor                                                | Reacción del sistema                                              |
-| --------------------------------------------------------------- | ----------------------------------------------------------------- |
-| 1) El usuario quiere agregar un ingreso o un gasto              | 2) El sistema dispone de un botón que habilita esta acción        |
-| 3) El usuario presiona el botón de agregar gastos o ingresos    | 4) El sistema muestra una nueva pantalla con campos para rellenar |
-| 5) El usuario rellena los campos con los datos correspondientes | 6) El sistema agrega un ingreso o gasto                           |
+| Acción del actor                                                | Reacción del sistema                                                         |
+| --------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| 1) El usuario quiere agregar un ingreso o un gasto              | 2) El sistema dispone de un botón que habilita esta acción (en forma de más) |
+| 3) El usuario presiona el botón de agregar gastos o ingresos    | 4) El sistema muestra una nueva pantalla con campos para rellenar            |
+| 5) El usuario rellena los campos con los datos correspondientes | 6) El sistema agrega un ingreso o gasto                                      |
 
 #### Curso alternativo: 
 
@@ -69,7 +69,7 @@
 * Aparece un mensaje de alerta diciendo que los datos son incorrectos.
 * Se vuelve al punto numero 4.
 
-
+![](../.gitbook/assets/3.png)
 
 ## Caso de uso 4
 
@@ -116,3 +116,5 @@
 * El usuario no selecciona un contacto para realizar la transacción
 * El sistema muestra un mensaje diciendo que no ha seleccionado con quien quiere realizar dicha transacción
 * El sistema vuelve al punto 4
+
+![](../.gitbook/assets/5.png)
