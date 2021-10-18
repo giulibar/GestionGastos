@@ -31,6 +31,7 @@
 ### Criterios de aceptación:&#x20;
 
 * Que pueda ingresar el nombre, tipo, monto, si es fijo y descripción
+* Que la transacción agregada se vea reflejada en el balance total de la cuenta
 
 ## Historia de usuario 4:&#x20;
 
@@ -43,45 +44,36 @@
 *   Que me muestre una lista de mis gastos  y me permita editar los datos campos de:
 
     \> nombre, tipo, monto, si es fijo y descripción
+* Que la transacción editada se vea reflejada en el balance total de la cuenta
 
 ## Historia de usuario 5:&#x20;
 
 ### Titulo:  Eliminar un ingreso/gasto
 
-#### Como usuario quiero poder eliminar un ingreso/gasto del sistema si lo deseo para no ocupar memoria.
+#### Como usuario quiero poder eliminar un ingreso/gasto del sistema si lo deseo.
 
 ### Criterios de aceptación:&#x20;
 
-* Que el s
+* Que el sistema me muestre una lista de las anteriores transacciones y me permita eliminarlas
+* Que la transacción eliminada se vea reflejada en el balance total de la cuenta
 
 ## Historia de usuario 6:
 
 ### Titulo:  Agregar un contacto
 
-#### Como usuario quiero poder agregar contactos para realizar transacciones u.
+#### Como usuario quiero poder agregar contactos para realizar transacciones o formar grupos.
 
 ### Criterios de aceptación:&#x20;
 
-* El usuario debe haber registrado una cuenta
-* Click en el icono de "contactos" > click en el signo de "mas" o click en "Pagar" > click en "agregar"
-* Agrego un contacto mediante su GCiD (numero de identificación de cada usuario, podre encontrar el mio si voy a "mi perfil" desde el menú)
+* Que me permita agregar un contacto mediante un código o numero identificador
+* Que agregue el contacto a mi lista de contactos permitiendo formar grupos con el mismo o realizar transacciones
 
 ## Historia de usuario 7:&#x20;
 
-### Titulo:  Enviar/solicitar dinero a un contacto
+### Titulo:  Enviar dinero a un contacto
 
-#### Como usuario quiero poder realizar una transacción desde mi cuenta o pedir dinero a un contacto por alguna razón.
+#### Como usuario quiero poder realizar una transacción desde mi cuenta.
 
 ### Criterios de aceptación:&#x20;
 
-* Una vez creado mi perfil
-* Debo agregar al contacto para poder interactuar con él:
-
-1\) Click al botón contactos desde el menú
-
-2\) Click en el signo de más (arriba a la derecha)
-
-3\) Ingresar el GCiD (Gastos Casa iD)
-
-* Una vez hechos estos dos pasos, la persona ya esta agregada a los contactos.&#x20;
-* Lo siguiente es hacer click sobre el contacto y seleccionar el monto, tipo de moneda y si lo desea enviar o solicitar.
+* Que me permita seleccionar un contacto de mi lista de contactos, un monto, una categoría y una descripción
