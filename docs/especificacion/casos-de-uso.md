@@ -44,7 +44,7 @@
 * Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
 * Se vuelve al punto numero 2.
 
-![](../.gitbook/assets/2.png)
+![](<../.gitbook/assets/2 (2).png>)
 
 ## Caso de uso 3
 
@@ -101,7 +101,7 @@
 
 | Acción del usuario                                                               | Reacción del sistema                                             |
 | -------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| 1) El usuario quiere realizar una transacción con otro contacto                  | 2) El sistema dispone de un botón "contactos" en el menú         |
+| 1) El usuario quiere realizar una transacción con otro contacto                  | 2) El sistema dispone de un botón "Pagar" en el menú             |
 | 3) El usuario hace click en el botón contactos                                   | 4) El sistema muestra los contactos y campos de texto a rellenar |
 | 5) El usuario selecciona un contacto y rellena correctamente los campos de texto | 6) El sistema realiza la transacción                             |
 
