@@ -15,17 +15,9 @@
 
 #### Curso alternativo:&#x20;
 
-3\. 1. El usuario no rellena un campo de texto obligatorio y presiona iniciar sesión.
+3\. 1. El usuario no rellena un campo de texto obligatorio y presiona iniciar sesión: aparece un mensaje de alerta diciendo que faltan datos por ingresar
 
-3\. 2. Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
-
-3\. 3. Se vuelve al punto numero 2.
-
-3\. 4. El usuario intenta iniciar sesión con un perfil que no existe.
-
-3\. 5. Aparece un mensaje de alerta diciendo que los datos son incorrectos.
-
-3\. 6. Se vuelve al punto numero 2.
+3\. 2. El usuario intenta iniciar sesión con un perfil que no existe o la contraseña es incorrecta: aparece un mensaje de alerta diciendo que los datos son incorrectos.
 
 ![](../.gitbook/assets/1.png)
 
@@ -45,11 +37,11 @@
 
 #### Curso alternativo:&#x20;
 
-5\. 1. El usuario no rellena un campo de texto obligatorio y presiona registrarse.
+5\. 1. El usuario no rellena un campo de texto obligatorio y presiona registrarse: aparece un mensaje de alerta diciendo que faltan datos por ingresar.
 
-5\. 2. Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
+5\. 2. El usuario no ingresa la misma contraseña las dos veces: aparece un mensaje de error notificando que la contraseña es incorrecta.
 
-5\. 3. Se vuelve al punto numero 2.
+5\. 3. El usuario intenta registrarse con un correo de una cuenta ya existente: aparece un mensaje de error notificando que existe una cuenta asociada a ese correo.
 
 ![](<../.gitbook/assets/2 (2).png>)
 
@@ -61,25 +53,17 @@
 
 #### Curso normal:&#x20;
 
-| Acción del actor                                                | Reacción del sistema                                                         |
-| --------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| 1) El usuario quiere agregar un ingreso o un gasto              | 2) El sistema dispone de un botón que habilita esta acción (en forma de más) |
-| 3) El usuario presiona el botón de agregar gastos o ingresos    | 4) El sistema muestra una nueva pantalla con campos para rellenar            |
-| 5) El usuario rellena los campos con los datos correspondientes | 6) El sistema agrega un ingreso o gasto                                      |
+| Acción del actor                                                | Reacción del sistema                                              |
+| --------------------------------------------------------------- | ----------------------------------------------------------------- |
+| 1) El usuario quiere agregar un ingreso o un gasto              | 2) El sistema dispone de un botón que habilita esta acción        |
+| 3) El usuario presiona el botón de agregar gastos o ingresos    | 4) El sistema muestra una nueva pantalla con campos para rellenar |
+| 5) El usuario rellena los campos con los datos correspondientes | 6) El sistema agrega un ingreso o gasto                           |
 
 #### Curso alternativo:&#x20;
 
-5\. 1. El usuario no rellena un campo de texto obligatorio y presiona agregar.
+5\. 1. El usuario no rellena un campo de texto obligatorio y presiona agregar: aparece un mensaje de alerta diciendo que faltan datos por ingresar.
 
-5\. 2. Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
-
-5\. 3. Se vuelve al punto numero 4.
-
-5\. 4. El usuario intenta agregar un ingreso o un gasto con monto negativo.
-
-5\. 5. Aparece un mensaje de alerta diciendo que los datos son incorrectos.
-
-5\. 6. Se vuelve al punto numero 4.
+5\. 2. El usuario intenta agregar un ingreso o un gasto con monto negativo: aparece un mensaje de alerta diciendo que no puede ingresar montos negativos.
 
 ![](../.gitbook/assets/3.png)
 
@@ -91,20 +75,20 @@
 
 #### Curso normal:&#x20;
 
-| Acción del usuario                                 | Reacción del sistema                                                                                                  |
-| -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| 1) El usuario quiere editar un gasto o un ingreso  | 2) El sistema dispone de una opcion que sirve para ver el historial de transacciones anteriores                       |
-| 3) El usuario clickea ese boton de transacciones   | 4) El sistema redirige a otra pagina que le muestra todas las transacciones con tres puntos al lado para poder editar |
-| 5) El usuario le da a los tres puntos y a editar   | 6) El sistema redirige a otra pagina donde se puede rellenar campos y guardar cambios                                 |
-| 7) El usuario rellena los campos y le da a guardar | 8) El sistema guarda los cambios de el ingreso/gasto                                                                  |
+| Acción del usuario                                         | Reacción del sistema                                                                            |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| 1) El usuario quiere editar un gasto o un ingreso          | 2) El sistema dispone de una opción que sirve para ver el historial de transacciones anteriores |
+| 3) El usuario clickea el botón de transacciones anteriores | 4) El sistema despliega una lista de transacciones anteriores que pueden ser editadas           |
+| 5) El usuario selecciona una transacción a editar          | 6) El sistema redirige a otra pagina donde se pueden editar los datos y guardar cambios         |
+| 7) El usuario rellena los campos y le da a guardar         | 8) El sistema guarda los cambios del ingreso/gasto                                              |
 
 #### Curso alternativo:&#x20;
 
-7\. 1. El usuario rellena el campo monto con monto negativo
+5\. 1. El usuario no posee transacciones anteriores, por lo tanto no puede editar
 
-7\. 2. El sistema rechaza y le muestra un mensaje de error
+7\. 1. El usuario rellena el campo monto con monto negativo: el sistema rechaza y le muestra un mensaje de error
 
-7\. 3. El sistema vuelve al punto 6
+7\. 2. El usuario edita los datos y sale sin guardar los cambios
 
 ## Caso de uso 5
 
@@ -114,18 +98,16 @@
 
 #### Curso normal:&#x20;
 
-| Acción del usuario                                                                        | Reacción del sistema                                            |
-| ----------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| 1) El usuario quiere eliminar un gasto/ingreso del sistema                                | 2) El sistema dispone de un botón transacciones anteriores      |
-| 3) El usuario hace click en el botón transacciones anteriores                             | 4) El sistema muestra una lista de las transacciones anteriores |
-| 5) El usuario hace click en los tres puntos al lado de la transacción que quiere eliminar | 6) El sistema muestra dos opciones: eliminar y editar           |
-| 7) El usuario hace click en eliminar                                                      | 8) El sistema borra dicha transacción                           |
+| Acción del usuario                                            | Reacción del sistema                                            |
+| ------------------------------------------------------------- | --------------------------------------------------------------- |
+| 1) El usuario quiere eliminar un gasto/ingreso del sistema    | 2) El sistema dispone de un botón transacciones anteriores      |
+| 3) El usuario hace click en el botón transacciones anteriores | 4) El sistema muestra una lista de las transacciones anteriores |
+| 5) El usuario selecciona una de las transacciones             | 6) El sistema permite eliminar dicha transacción                |
+| 7) El usuario hace click en eliminar                          | 8) El sistema borra dicha transacción                           |
 
 #### Curso alternativo:&#x20;
 
 5\. 1. No hay transacciones para eliminar
-
-5\. 2. El usuario se queda sin borrar transacciones
 
 ## Caso de uso 6
 
@@ -135,19 +117,18 @@
 
 #### Curso normal:&#x20;
 
-| Acción del usuario                                                      | Reacción del sistema                                                                                        |
-| ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| 1) El usuario quiere agregar a un familiar suyo como contacto en la app | 2) El sistema dispone de un botón "contactos" en el menú                                                    |
-| 3) El usuario hace click en el botón contactos                          | 4) El sistema abre otra pagina con un campo de texto para agregar contactos por su código de identificación |
-| 5) El usuario rellena el campo                                          | 6) El sistema agrega ese contacto                                                                           |
+| Acción del usuario                             | Reacción del sistema                                                                                                             |
+| ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| 1) El usuario quiere agregar un contacto       | 2) El sistema dispone de un botón contactos                                                                                      |
+| 3) El usuario hace click en el botón contactos | 4) El sistema despliega una lista de los contactos de los usuarios y permite agregar uno mediante su GCiD (código identificador) |
+| 5) El usuario escribe el GCiD                  | 6) El sistema busca ese GCiD                                                                                                     |
+| 6) El usuario hace click en agregar            | 7) El sistema agrega al contacto                                                                                                 |
 
 #### Curso alternativo:&#x20;
 
-5\. 1. El usuario coloca un código de un usuario que no existe
+5\. 1. El usuario coloca un código que no corresponde al formato requerido: el sistema muestra un mensaje diciendo que coloco un código que no es valido
 
-5\. 2. El sistema muestra un mensaje diciendo que no existe ningún usuario con ese código
-
-5\. 3. El sistema vuelve al punto 4
+6\. 1. El usuario coloca un código de un usuario que no existe: el sistema muestra un mensaje diciendo que no existe ningún usuario con ese código
 
 ## Caso de uso 7
 
@@ -157,30 +138,18 @@
 
 #### Curso normal:&#x20;
 
-| Acción del usuario                                                               | Reacción del sistema                                             |
-| -------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| 1) El usuario quiere realizar una transacción con otro contacto                  | 2) El sistema dispone de un botón "Pagar" en el menú             |
-| 3) El usuario hace click en el botón contactos                                   | 4) El sistema muestra los contactos y campos de texto a rellenar |
-| 5) El usuario selecciona un contacto y rellena correctamente los campos de texto | 6) El sistema realiza la transacción                             |
+| Acción del usuario                                                               | Reacción del sistema                                              |
+| -------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| 1) El usuario quiere realizar una transacción con un contacto                    | 2) El sistema dispone de un botón pagar en el menú                |
+| 3) El usuario hace click en el botón pagar                                       | 4) El sistema muestra los contactos disponibles y campos de texto |
+| 5) El usuario selecciona un contacto y rellena correctamente los campos de texto | 6) El sistema realiza la transacción                              |
 
 #### Curso alternativo:&#x20;
 
-5\. 1. El usuario no rellena uno de los campos
+5\. 1. El usuario no rellena uno de los campos o no selecciona un contacto para realizar la transacción: el sistema muestra un mensaje diciendo que no relleno todos los campos obligatorios
 
-5\. 2. El sistema muestra un mensaje diciendo que no relleno todos los campos obligatorios
+5\. 2. El usuario coloca un monto negativo: el sistema muestra un mensaje diciendo que no se pueden ingresar costos negativos
 
-5\. 3. El sistema vuelve al punto 4
-
-5\. 4. El usuario coloca un monto negativo
-
-5\. 5. El sistema muestra un mensaje diciendo que no pueden haber montos negativos
-
-5\. 6. El sistema vuelve al punto 4
-
-5\. 7. El usuario no selecciona un contacto para realizar la transacción
-
-5\. 8. El sistema muestra un mensaje diciendo que no ha seleccionado con quien quiere realizar dicha transacción
-
-5\. 9. El sistema vuelve al punto 4
+5\. 3. El usuario no posee el monto a enviar: el sistema muestra mensaje notificando que no tiene saldo suficiente
 
 ![](../.gitbook/assets/5.png)
