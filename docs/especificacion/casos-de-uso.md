@@ -23,3 +23,24 @@
 * Se vuelve al punto numero 2.
 
 ## Caso de uso 2
+
+### Título: Agregar un ingreso/gasto
+
+#### Actor: Usuario
+
+#### Curso normal: 
+
+| Acción del actor                                                | Reacción del sistema                                              |
+| --------------------------------------------------------------- | ----------------------------------------------------------------- |
+| 1) El usuario quiere agregar un ingreso o un gasto              | 2) El sistema dispone de un botón que habilita esta acción        |
+| 3) El usuario presiona el botón de agregar gastos o ingresos    | 4) El sistema muestra una nueva pantalla con campos para rellenar |
+| 5) El usuario rellena los campos con los datos correspondientes | 6) El sistema agrega un ingreso o gasto                           |
+
+#### Curso alternativo: 
+
+* El usuario no rellena un campo de texto obligatorio y presiona agregar.
+* Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
+* Se vuelve al punto numero 4.
+* El usuario intenta agregar un ingreso o un gasto con monto negativo.
+* Aparece un mensaje de alerta diciendo que los datos son incorrectos.
+* Se vuelve al punto numero 4.
