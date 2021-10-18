@@ -4,7 +4,7 @@
 
 ### Titulo:  Iniciar sesión
 
-#### Como usuario quiero poder agregar contactos para realizar transacciones.
+#### Como usuario quiero poder iniciar sesión desde un dispositivo si yo ya poseía una cuenta con mis datos guardada en ella.
 
 ### Criterios de aceptación: 
 
@@ -12,11 +12,11 @@
 * El usuario ya se debió de haber registrado anteriormente
 * El usuario debe recordar sus datos de la cuenta
 
-## Historia de usuario 1:
+## Historia de usuario 2:
 
 ### Titulo:  Registrarse
 
-#### Como usuario quiero poder agregar contactos para realizar transacciones.
+#### Como usuario quiero poder registrarme si no tengo cuenta y quiero usar la app
 
 ### Criterios de aceptación: 
 
