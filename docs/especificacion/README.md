@@ -8,8 +8,7 @@ description: >-
 
 ### Actores
 
-* Personal
-* Familia
+* Persona
 * Empresa
 
 ## Requerimientos funcionales
