@@ -1,11 +1,19 @@
 # Requerimientos no funcionales
 
-### RNF1: Dar consejos de mejor administración
 
-### RNF2: Eficiencia de las transacciones
 
-### RNF3: Definir un presupuesto (monto objetivo)
+### RNF1: Color primario: Deep Purple 700, secundario: Teal 700
 
-### RNF4: Seguridad de los datos mediante el GCiD (GastosCasaId)
+### RNF2: Fuente: Roboto
 
-### RNF5: Tiene en cuenta compras realizadas con tarjetas 
+### RNF3: Icons: Rellenos
+
+### RNF4: actualizable a iOS14
+
+### RNF4: compatible con web Chrome v8.9
+
+### RNF5: Se pueden registrar hasta 50 contactos por usuario
+
+### RNF6: Cada grupo tiene un máximo de 20 integrantes
+
+### RNF7:  Las transacciones se envían por blockchain

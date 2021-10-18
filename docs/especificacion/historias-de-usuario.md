@@ -4,44 +4,34 @@
 
 ### Titulo:  Iniciar sesión
 
-#### Como usuario quiero poder iniciar sesión desde un dispositivo si yo ya poseía una cuenta con mis datos guardada en ella.
+#### Como usuario quiero poder iniciar sesión desde un dispositivo si yo ya poseía una cuenta con mis datos guardada en ella para estar al día con los mismos.
 
 ### Criterios de aceptación:&#x20;
 
-* El usuario debió haberse bajado la aplicación o haber entrado vía web
-* El usuario ya se debió de haber registrado anteriormente
-* El usuario debe recordar sus datos de la cuenta
+* Que se muestre un formulario preguntando por el nombre de usuario y contraseña
+* Que permita iniciar en el sistema con los datos correspondientes
 
 ## Historia de usuario 2:
 
 ### Titulo:  Registrarse
 
-#### Como usuario quiero poder registrarme si no tengo cuenta y quiero usar la app
+#### Como usuario quiero poder registrarme si no tengo cuenta para poder utilizar la app.
 
 ### Criterios de aceptación:&#x20;
 
-* Para crear una cuenta el usuario debe llenar campos de texto obligatorios:
-
-1\) Nombre de usuario
-
-2\) Contraseña (doble)
-
-3\) Mail de contacto
-
-* Una vez rellenados los campos los campos correctamente el perfil se registra y puede usar la aplicación libremente
+* Que muestre un formulario para poder registrarme con nombre de usuario, contraseña (doble) y mail
+* Que si las contraseñas son iguales y el mail no se utilizo anteriormente cree la cuenta
 
 ## Historia de usuario 3:&#x20;
 
 ### Titulo:  Agregar un ingreso/gasto
 
-#### Como usuario quiero poder actualizar mi estado actual económico agregando o quitando dinero del balance total.
+#### Como usuario quiero poder actualizar mi estado actual económico para mantenerlo al día.
 
 ### Criterios de aceptación:&#x20;
 
-* La cuenta debe estar creada
-* Click en el signo de mas desde el menú
-* Fijo un monto, categoría y descripción
-* Agregar el monto al balance
+* Que pueda ingresar el nombre, tipo, monto, si es fijo y descripción
+* Que la transacción agregada se vea reflejada en el balance total de la cuenta
 
 ## Historia de usuario 4:&#x20;
 
@@ -51,8 +41,10 @@
 
 ### Criterios de aceptación:&#x20;
 
-* El gasto/ingreso debe estar creado
-* El gasto queda editado con los nuevos datos ingresados
+*   Que me muestre una lista de mis gastos  y me permita editar los datos campos de:
+
+    \> nombre, tipo, monto, si es fijo y descripción
+* Que la transacción editada se vea reflejada en el balance total de la cuenta
 
 ## Historia de usuario 5:&#x20;
 
@@ -62,37 +54,38 @@
 
 ### Criterios de aceptación:&#x20;
 
-* El gasto/ingreso debe estar creado
-* El gasto queda eliminado y fuera del sistema
+* Que el sistema me muestre una lista de las anteriores transacciones y me permita eliminarlas
+* Que la transacción eliminada se vea reflejada en el balance total de la cuenta
 
 ## Historia de usuario 6:
 
 ### Titulo:  Agregar un contacto
 
-#### Como usuario quiero poder agregar contactos para realizar transacciones.
+#### Como usuario quiero poder agregar contactos para realizar transacciones o formar grupos.
 
 ### Criterios de aceptación:&#x20;
 
-* El usuario debe haber registrado una cuenta
-* Click en el icono de "contactos" > click en el signo de "mas" o click en "Pagar" > click en "agregar"
-* Agrego un contacto mediante su GCiD (numero de identificación de cada usuario, podre encontrar el mio si voy a "mi perfil" desde el menú)
+* Que me permita agregar un contacto mediante un código o numero identificador
+* Que agregue el contacto a mi lista de contactos permitiendo formar grupos con el mismo o realizar transacciones
 
 ## Historia de usuario 7:&#x20;
 
-### Titulo:  Enviar/solicitar dinero a un contacto
+### Titulo:  Enviar dinero a un contacto
 
-#### Como usuario quiero poder realizar una transacción desde mi cuenta o pedir dinero a un contacto por alguna razón.
+#### Como usuario quiero poder realizar una transacción desde mi cuenta.
 
 ### Criterios de aceptación:&#x20;
 
-* Una vez creado mi perfil
-* Debo agregar al contacto para poder interactuar con él:
+* Que me permita seleccionar un contacto de mi lista de contactos, un monto, una categoría y una descripción
+* Que me descuente el monto enviado a mi balance principal y guarde la transacción con la información ingresada
 
-1\) Click al botón contactos desde el menú
+## Historia de usuario 8:
 
-2\) Click en el signo de más (arriba a la derecha)
+### Titilo: Crear un grupo
 
-3\) Ingresar el GCiD (Gastos Casa iD)
+#### Como usuario quiero poder crear un grupo para realizar compras conjuntas y repartir el dinero igualadamente entre los integrantes del mismo
 
-* Una vez hechos estos dos pasos, la persona ya esta agregada a los contactos.&#x20;
-* Lo siguiente es hacer click sobre el contacto y seleccionar el monto, tipo de moneda y si lo desea enviar o solicitar.
+### Criterios de aceptación:
+
+* Que me permita agregar solamente integrantes al grupo si son mis contactos
+* Que me permita crear un grupo con un nombre

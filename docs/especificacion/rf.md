@@ -1,6 +1,14 @@
 # Requerimientos funcionales
 
-## RF1: Registrar usuario
+## RF1: Iniciar sesión
+
+Actor: Usuario (Personal/Empresa)
+
+Descripción: Se debe poder iniciar sesión de un usuario en el sistema con sus datos asociados
+
+Prioridad: Alta
+
+## RF2: Registrar usuario
 
 Actor: Usuario (Personal/Empresa)
 
@@ -8,7 +16,7 @@ Descripción: Se debe poder registrar un usuario en el sistema con sus datos aso
 
 Prioridad: Alta
 
-## RF2: Agregar un ingreso/gasto
+## RF3: Agregar un ingreso/gasto
 
 Actor: Usuario (Personal/Empresa)
 
@@ -16,7 +24,7 @@ Descripción: Debe poderse ingresar un ingreso/gasto al sistema y que el mismo s
 
 Prioridad: Alta
 
-## RF3: Modificar un ingreso/gasto
+## RF4: Modificar un ingreso/gasto
 
 Actor: Usuario (Personal/Empresa)
 
@@ -24,7 +32,7 @@ Descripción: Debe poderse modificar un gasto e ingreso, pudiendo cambiar el mon
 
 Prioridad: Alta
 
-## RF4: Eliminar un ingreso/gasto
+## RF5: Eliminar un ingreso/gasto
 
 Actor: Usuario (Personal/Empresa)
 
@@ -32,7 +40,7 @@ Descripción: Debe poderse eliminar un gasto e ingreso.
 
 Prioridad: Alta
 
-## RF5: Visualización de gastos e ingresos totales (balance)
+## RF6: Visualización de gastos e ingresos totales (balance)
 
 Actor: Sistema
 
@@ -40,7 +48,7 @@ Descripción: El sistema deberá mostrar el balance total de la cuenta para el u
 
 Prioridad: Alta
 
-## RF6: Visualización de gastos mediante gráficas
+## RF7: Visualización de gastos mediante gráficas
 
 Actor: Sistema
 
@@ -48,7 +56,7 @@ Descripción: El sistema mostrara una grafica circular/de barras indicando los g
 
 Prioridad: Media
 
-## RF7: Conectar a Wallet
+## RF8: Conectar a Wallet
 
 Actor: Usuario (Personal/Empresa)
 
@@ -56,7 +64,7 @@ Descripción: Se puede conectar una wallet para realizar transacciones dentro de
 
 Prioridad: Media
 
-## RF8: Consejos de Ahorro
+## RF9: Consejos de Ahorro
 
 Actor: Sistema
 
@@ -64,7 +72,7 @@ Descripción: El sistema tendrá un apartado de "consejos" donde se brindaran co
 
 Prioridad: Media
 
-## RF9: Agregar contactos
+## RF10: Agregar contactos
 
 Actor: Usuario (Personal)
 
@@ -74,7 +82,7 @@ Descripción: Cada usuario será identificado por un código único y tendrá la
 
 Prioridad: Media
 
-## RF10: Realizar transacciones
+## RF11: Realizar transacciones
 
 Actor: Usuario (Personal/Empresa)
 
@@ -82,7 +90,7 @@ Descripción: El sistema permite enviar y recibir pagos a los usuarios que hayan
 
 Prioridad: Media
 
-## RF11: Crear grupo
+## RF12: Crear grupo
 
 Actor: Usuario (Personal)
 
@@ -90,7 +98,7 @@ Descripción: El sistema permite crear un grupo y agregar contactos, al grupo se
 
 Prioridad: Media
 
-## RF12: Buscador
+## RF13: Buscador
 
 Actor: Usuario (Personal/Empresa)
 
