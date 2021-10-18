@@ -6,3 +6,4 @@ description: >-
 
 # Validación y verificación
 
+![](.gitbook/assets/tabla.png)
