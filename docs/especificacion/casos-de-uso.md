@@ -45,9 +45,11 @@
 
 #### Curso alternativo:&#x20;
 
-* El usuario no rellena un campo de texto obligatorio y presiona registrarse.
-* Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
-* Se vuelve al punto numero 2.
+4\. 1. El usuario no rellena un campo de texto obligatorio y presiona registrarse.
+
+4\. 2. Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
+
+4\. 3. Se vuelve al punto numero 2.
 
 ![](<../.gitbook/assets/2 (2).png>)
 
@@ -67,12 +69,17 @@
 
 #### Curso alternativo:&#x20;
 
-* El usuario no rellena un campo de texto obligatorio y presiona agregar.
-* Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
-* Se vuelve al punto numero 4.
-* El usuario intenta agregar un ingreso o un gasto con monto negativo.
-* Aparece un mensaje de alerta diciendo que los datos son incorrectos.
-* Se vuelve al punto numero 4.
+4\. 1. El usuario no rellena un campo de texto obligatorio y presiona agregar.
+
+4\. 2. Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
+
+4\. 3. Se vuelve al punto numero 4.
+
+4\. 4. El usuario intenta agregar un ingreso o un gasto con monto negativo.
+
+4\. 5. Aparece un mensaje de alerta diciendo que los datos son incorrectos.
+
+4\. 6. Se vuelve al punto numero 4.
 
 ![](../.gitbook/assets/3.png)
 
@@ -93,9 +100,11 @@
 
 #### Curso alternativo:&#x20;
 
-* El usuario rellena el campo monto con monto negativo
-* El sistema rechaza y le muestra un mensaje de error
-* El sistema vuelve al punto 6
+6\. 1. El usuario rellena el campo monto con monto negativo
+
+6\. 2. El sistema rechaza y le muestra un mensaje de error
+
+6\. 3. El sistema vuelve al punto 6
 
 ## Caso de uso 5
 
@@ -114,8 +123,9 @@
 
 #### Curso alternativo:&#x20;
 
-* No hay transacciones para eliminar
-* El usuario se queda sin borrar transacciones
+4\. 1. No hay transacciones para eliminar
+
+4\. 2. El usuario se queda sin borrar transacciones
 
 ## Caso de uso 6
 
@@ -133,9 +143,11 @@
 
 #### Curso alternativo:&#x20;
 
-* El usuario coloca un código de un usuario que no existe
-* El sistema muestra un mensaje diciendo que no existe ningún usuario con ese código
-* El sistema vuelve al punto 4
+4\. 1. El usuario coloca un código de un usuario que no existe
+
+4\. 2. El sistema muestra un mensaje diciendo que no existe ningún usuario con ese código
+
+4\. 3. El sistema vuelve al punto 4
 
 ## Caso de uso 7
 
@@ -153,14 +165,22 @@
 
 #### Curso alternativo:&#x20;
 
-* El usuario no rellena uno de los campos
-* El sistema muestra un mensaje diciendo que no relleno todos los campos obligatorios
-* El sistema vuelve al punto 4
-* El usuario coloca un monto negativo
-* El sistema muestra un mensaje diciendo que no pueden haber montos negativos
-* El sistema vuelve al punto 4
-* El usuario no selecciona un contacto para realizar la transacción
-* El sistema muestra un mensaje diciendo que no ha seleccionado con quien quiere realizar dicha transacción
-* El sistema vuelve al punto 4
+4\. 1. El usuario no rellena uno de los campos
+
+4\. 2. El sistema muestra un mensaje diciendo que no relleno todos los campos obligatorios
+
+4\. 3. El sistema vuelve al punto 4
+
+4\. 4. El usuario coloca un monto negativo
+
+4\. 5. El sistema muestra un mensaje diciendo que no pueden haber montos negativos
+
+4\. 6. El sistema vuelve al punto 4
+
+4\. 7. El usuario no selecciona un contacto para realizar la transacción
+
+4\. 8. El sistema muestra un mensaje diciendo que no ha seleccionado con quien quiere realizar dicha transacción
+
+4\. 9. El sistema vuelve al punto 4
 
 ![](../.gitbook/assets/5.png)
