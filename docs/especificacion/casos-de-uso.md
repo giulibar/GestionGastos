@@ -2,27 +2,47 @@
 
 ## Caso de uso 1
 
-### Título: Iniciar sesión/Registrarse (hacer por separado)
+### Título: Iniciar sesión
 
 #### Actor: Usuario
 
 #### Curso normal: 
 
-| Accion del actor                                  | Reacción del sistema                                                                      |
-| ------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| 1) El usuario quiere iniciar sesión o registrarse | 2) Sistema muestra campos de texto para iniciar sesión o registrarse                      |
-| 3) El usuario llena los campos de texto           | 4) El sistema crea el perfil del usuario (si lo registra) o lo inicia si ya estaba creado |
+| Accion del actor                        | Reacción del sistema                                   |
+| --------------------------------------- | ------------------------------------------------------ |
+| 1) El usuario quiere iniciar sesión     | 2) Sistema muestra campos de texto para iniciar sesión |
+| 3) El usuario llena los campos de texto | 4) El sistema inicia sesión con los datos del usuario  |
 
 #### Curso alternativo: 
 
-* El usuario no rellena un campo de texto obligatorio y presiona iniciar sesión/registrarse.
+* El usuario no rellena un campo de texto obligatorio y presiona iniciar sesión.
 * Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
 * Se vuelve al punto numero 2.
-* El usuario intenta registrarse con un perfil que no existe.
+* El usuario intenta iniciar sesión con un perfil que no existe.
 * Aparece un mensaje de alerta diciendo que los datos son incorrectos.
 * Se vuelve al punto numero 2.
 
 ## Caso de uso 2
+
+### Título: Registrarse
+
+#### Actor: Usuario
+
+#### Curso normal: 
+
+| Accion del actor                                 | Reacción del sistema                                                |
+| ------------------------------------------------ | ------------------------------------------------------------------- |
+| 1) El usuario quiere registrarse                 | 2) Sistema muestra un botón registrarse desde la primer pantalla    |
+| 3) El usuario hace click en el botón registrarse | 4) El sistema lleva a otra pagina con campos de texto para rellenar |
+| 5) El usuario llena los campos de texto          | 6) El sistema registra al usuario con los respectivos datos         |
+
+#### Curso alternativo: 
+
+* El usuario no rellena un campo de texto obligatorio y presiona registrarse.
+* Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
+* Se vuelve al punto numero 2.
+
+## Caso de uso 3
 
 ### Título: Agregar un ingreso/gasto
 
@@ -45,7 +65,7 @@
 * Aparece un mensaje de alerta diciendo que los datos son incorrectos.
 * Se vuelve al punto numero 4.
 
-## Caso de uso 3
+## Caso de uso 4
 
 ### Título: Agregar contacto
 
@@ -65,7 +85,7 @@
 * El sistema muestra un mensaje diciendo que no existe ningún usuario con ese código
 * El sistema vuelve al punto 4
 
-## Caso de uso 4
+## Caso de uso 5
 
 ### Título: Realizar transacción
 
