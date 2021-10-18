@@ -79,23 +79,38 @@
 
 #### Curso normal:&#x20;
 
-| Acción del usuario                                | Reacción del sistema |
-| ------------------------------------------------- | -------------------- |
-| 1) El usuario quiere editar un gasto o un ingreso | 2)                   |
-| 3)                                                | 4)                   |
-| 5)                                                | 6)                   |
+| Acción del usuario                                 | Reacción del sistema                                                                                                  |
+| -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| 1) El usuario quiere editar un gasto o un ingreso  | 2) El sistema dispone de una opcion que sirve para ver el historial de transacciones anteriores                       |
+| 3) El usuario clickea ese boton de transacciones   | 4) El sistema redirige a otra pagina que le muestra todas las transacciones con tres puntos al lado para poder editar |
+| 5) El usuario le da a los tres puntos y a editar   | 6) El sistema redirige a otra pagina donde se puede rellenar campos y guardar cambios                                 |
+| 7) El usuario rellena los campos y le da a guardar | 8) El sistema guarda los cambios de el ingreso/gasto                                                                  |
 
 #### Curso alternativo:&#x20;
 
+* El usuario rellena el campo monto con monto negativo
+* El sistema rechaza y le muestra un mensaje de error
+* El sistema vuelve al punto 6
+
 ## Caso de uso 5
 
-### Título: Editar un ingreso/gasto
+### Título: Eliminar un ingreso/gasto
 
 #### Actor: Usuario
 
 #### Curso normal:&#x20;
 
+| Acción del usuario                                                                        | Reacción del sistema                                            |
+| ----------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| 1) El usuario quiere eliminar un gasto/ingreso del sistema                                | 2) El sistema dispone de un botón transacciones anteriores      |
+| 3) El usuario hace click en el botón transacciones anteriores                             | 4) El sistema muestra una lista de las transacciones anteriores |
+| 5) El usuario hace click en los tres puntos al lado de la transacción que quiere eliminar | 6) El sistema muestra dos opciones: eliminar y editar           |
+| 7) El usuario hace click en eliminar                                                      | 8) El sistema borra dicha transacción                           |
+
 #### Curso alternativo:&#x20;
+
+* No hay transacciones para eliminar
+* El usuario se queda sin borrar transacciones
 
 ## Caso de uso 6
 
