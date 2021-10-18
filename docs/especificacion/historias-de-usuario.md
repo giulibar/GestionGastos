@@ -78,3 +78,14 @@
 
 * Que me permita seleccionar un contacto de mi lista de contactos, un monto, una categoría y una descripción
 * Que me descuente el monto enviado a mi balance principal y guarde la transacción con la información ingresada
+
+## Historia de usuario 8:
+
+### Titilo: Crear un grupo
+
+#### Como usuario quiero poder crear un grupo para realizar compras conjuntas y repartir el dinero igualadamente entre los integrantes del mismo
+
+### Criterios de aceptación:
+
+* Que me permita agregar solamente integrantes al grupo si son mis contactos
+* Que me permita crear un grupo con un nombre

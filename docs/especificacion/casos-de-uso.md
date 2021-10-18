@@ -155,3 +155,22 @@
 5\. 4. El usuario no posee contactos, por lo tanto, no puede hacer una transacción
 
 ![](../.gitbook/assets/5.png)
+
+## Caso de uso 8
+
+### Título: Crear un grupo
+
+#### Actor: Usuario
+
+#### Curso normal:&#x20;
+
+| Acción del usuario                                           | Reacción del sistema                                                                                                      |
+| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| 1) El usuario quiere crear un grupo                          | 2) El sistema dispone de un botón grupos en el menú                                                                       |
+| 3) El usuario hace click en el botón grupos                  | 4) El sistema despliega una lista de los grupos en los que estoy y una opción de agregar                                  |
+| 5) El usuario hace click en agregar                          | 6) El sistema despliega una pagina con un campo para el nombre del grupo y una lista de los contactos debajo para agregar |
+| 7) El usuario llena los campos e invita personas si lo desea | 8) El sistema crea ese grupo con el nombre y personas seleccionadas                                                       |
+
+#### Curso alternativo:&#x20;
+
+5\. 1. El usuario no coloca un nombre de grupo: el sistema despliega un mensaje de error notificando que le faltan ingresar datos
