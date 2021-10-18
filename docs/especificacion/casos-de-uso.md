@@ -44,3 +44,37 @@
 * El usuario intenta agregar un ingreso o un gasto con monto negativo.
 * Aparece un mensaje de alerta diciendo que los datos son incorrectos.
 * Se vuelve al punto numero 4.
+
+## Caso de uso 3
+
+### Título: Agregar contacto
+
+#### Actor: Usuario
+
+#### Curso normal: 
+
+| Acción del usuario                                                      | Reacción del sistema                                                                    |
+| ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| 1) El usuario quiere agregar a un familiar suyo como contacto en la app | 2) El sistema dispone de un botón con la imagen de dos personas indicando "contactos"   |
+| 3) El usuario hace click en el botón contactos                          | 4) El sistema abre otra pagina con un campo de texto para agregar contactos por su GCiD |
+| 5) El usuario rellena el campo                                          | 6) El sistema agrega ese contacto                                                       |
+
+#### Curso alternativo: 
+
+* El usuario coloca un GCiD que no existe
+* El sistema muestra un mensaje diciendo que no existe ningún usuario con ese GCiD
+* El sistema vuelve al punto 4
+
+## Caso de uso 4
+
+### Título: Realizar transacción
+
+#### Actor: Usuario
+
+#### Curso normal: 
+
+|   |   |   |
+| - | - | - |
+|   |   |   |
+|   |   |   |
+|   |   |   |
