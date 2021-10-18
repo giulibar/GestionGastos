@@ -81,4 +81,12 @@
 
 #### Curso alternativo: 
 
-*
+* El usuario no rellena uno de los campos
+* El sistema muestra un mensaje diciendo que no relleno todos los campos obligatorios
+* El sistema vuelve al punto 4
+* El usuario coloca un monto negativo
+* El sistema muestra un mensaje diciendo que no pueden haber montos negativos
+* El sistema vuelve al punto 4
+* El usuario no selecciona un contacto para realizar la transacción
+* El sistema muestra un mensaje diciendo que no ha seleccionado con quien quiere realizar dicha transacción
+* El sistema vuelve al punto 4
