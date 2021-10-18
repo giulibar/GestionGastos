@@ -15,12 +15,17 @@
 
 #### Curso alternativo:&#x20;
 
-* El usuario no rellena un campo de texto obligatorio y presiona iniciar sesión.
-* Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
-* Se vuelve al punto numero 2.
-* El usuario intenta iniciar sesión con un perfil que no existe.
-* Aparece un mensaje de alerta diciendo que los datos son incorrectos.
-* Se vuelve al punto numero 2.
+2\. 1. El usuario no rellena un campo de texto obligatorio y presiona iniciar sesión.
+
+2\. 2. Aparece un mensaje de alerta diciendo que faltan datos por ingresar.
+
+2\. 3. Se vuelve al punto numero 2.
+
+2\. 4. El usuario intenta iniciar sesión con un perfil que no existe.
+
+2\. 5. Aparece un mensaje de alerta diciendo que los datos son incorrectos.
+
+2\. 6. Se vuelve al punto numero 2.
 
 ![](../.gitbook/assets/1.png)
 
