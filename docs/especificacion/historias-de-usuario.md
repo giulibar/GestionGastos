@@ -4,44 +4,33 @@
 
 ### Titulo:  Iniciar sesión
 
-#### Como usuario quiero poder iniciar sesión desde un dispositivo si yo ya poseía una cuenta con mis datos guardada en ella.
+#### Como usuario quiero poder iniciar sesión desde un dispositivo si yo ya poseía una cuenta con mis datos guardada en ella para estar al día con los mismos.
 
 ### Criterios de aceptación:&#x20;
 
-* El usuario debió haberse bajado la aplicación o haber entrado vía web
-* El usuario ya se debió de haber registrado anteriormente
-* El usuario debe recordar sus datos de la cuenta
+* Que se muestre un formulario preguntando por el nombre de usuario y contraseña
+* Que permita iniciar en el sistema con los datos correspondientes
 
 ## Historia de usuario 2:
 
 ### Titulo:  Registrarse
 
-#### Como usuario quiero poder registrarme si no tengo cuenta y quiero usar la app
+#### Como usuario quiero poder registrarme si no tengo cuenta para poder utilizar la app.
 
 ### Criterios de aceptación:&#x20;
 
-* Para crear una cuenta el usuario debe llenar campos de texto obligatorios:
-
-1\) Nombre de usuario
-
-2\) Contraseña (doble)
-
-3\) Mail de contacto
-
-* Una vez rellenados los campos los campos correctamente el perfil se registra y puede usar la aplicación libremente
+* Que muestre un formulario para poder registrarme con nombre de usuario, contraseña (doble) y mail
+* Que si las contraseñas son iguales y el mail no se utilizo anteriormente cree la cuenta
 
 ## Historia de usuario 3:&#x20;
 
 ### Titulo:  Agregar un ingreso/gasto
 
-#### Como usuario quiero poder actualizar mi estado actual económico agregando o quitando dinero del balance total.
+#### Como usuario quiero poder actualizar mi estado actual económico para mantenerlo al día.
 
 ### Criterios de aceptación:&#x20;
 
-* La cuenta debe estar creada
-* Click en el signo de mas desde el menú
-* Fijo un monto, categoría y descripción
-* Agregar el monto al balance
+* Que pueda ingresar el nombre, tipo, monto, si es fijo y descripción
 
 ## Historia de usuario 4:&#x20;
 
@@ -51,25 +40,25 @@
 
 ### Criterios de aceptación:&#x20;
 
-* El gasto/ingreso debe estar creado
-* El gasto queda editado con los nuevos datos ingresados
+*   Que me muestre una lista de mis gastos  y me permita editar los datos campos de:
+
+    \> nombre, tipo, monto, si es fijo y descripción
 
 ## Historia de usuario 5:&#x20;
 
 ### Titulo:  Eliminar un ingreso/gasto
 
-#### Como usuario quiero poder eliminar un ingreso/gasto del sistema si lo deseo.
+#### Como usuario quiero poder eliminar un ingreso/gasto del sistema si lo deseo para no ocupar memoria.
 
 ### Criterios de aceptación:&#x20;
 
-* El gasto/ingreso debe estar creado
-* El gasto queda eliminado y fuera del sistema
+* Que el s
 
 ## Historia de usuario 6:
 
 ### Titulo:  Agregar un contacto
 
-#### Como usuario quiero poder agregar contactos para realizar transacciones.
+#### Como usuario quiero poder agregar contactos para realizar transacciones u.
 
 ### Criterios de aceptación:&#x20;
 
