@@ -1,3 +1,3 @@
 # Bocetos UI
 
-![](<../.gitbook/assets/MisGastosIniciarSesionRegistrarse (1).png>)
+![](../.gitbook/assets/inicio.png)

@@ -2,7 +2,7 @@
 
 ## Caso de uso 1
 
-### Título: Iniciar sesión/Registrarse
+### Título: Iniciar sesión/Registrarse (hacer por separado)
 
 #### Actor: Usuario
 
