@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="bundle.css">
+</head>
+
+<body>
+
+    <header class="mdc-top-app-bar">
+        <div class="mdc-top-app-bar__row">
+
+            <section style="align-items: center; justify-content: center;"
+                class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <span style="font-weight: bold;" class="mdc-top-app-bar__title">MisGastos</span>
+                <img style="width: 50px; height: 50px; filter: brightness(0) invert(1)" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c498.png">
+            </section>
+        </div>
+
+        <div class="mdc-tab-bar" role="tablist">
+            <div class="mdc-tab-scroller">
+                <div class="mdc-tab-scroller__scroll-area">
+                    <div class="mdc-tab-scroller__scroll-content">
+
+                        <button class="mdc-tab mdc-tab--active sample-content-tab" role="tab" aria-selected="true"
+                            tabindex="0">
+                            <span class="mdc-tab__content">
+                                <span style="font-weight: bold;" class="mdc-tab__text-label">Mis Listas</span>
+                            </span>
+                            <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                                <span
+                                    class="mdc-tab-indicator__content mdc-tab-indicator__content--underline sample-content-tab-indicator"></span>
+                            </span>
+                            <span class="mdc-tab__ripple"></span>
+                        </button>
+
+                        <button class="mdc-tab sample-content-tab" role="tab" aria-selected="false" tabindex="1">
+                            <span id="listaActualHeader" class="mdc-tab__content">
+                                <span style="font-weight: bold;" class="mdc-tab__text-label"></span>
+                            </span>
+                            <span class="mdc-tab-indicator">
+                                <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                            </span>
+                            <span class="mdc-tab__ripple"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="mdc-top-app-bar--fixed-adjust">
+
+        <section style="margin-top: 65px;" class="content">
+
+            <div class="div-card-home">
+                <div class="mdc-card" id="balance">
+                    <h3 id="numeroSaldo" style="color: rgb(255, 255, 255);">BALANCE</h3>
+                    <h4 id="numeroSaldo">$0</h4>
+                </div>
+                <div class="mdc-card" id="grupos">
+                    <h3 style="color: rgb(255, 255, 255);">Grupos</h3>
+                </div>
+                <div class="mdc-card" id="pagar">
+                    <h3 style="color: rgb(255, 255, 255);">Pagar</h3>
+                </div>
+                <div class="mdc-card" id="consejos">
+                    <h3 style="color: rgb(255, 255, 255);">Consejos de ahorro</h3>
+                </div>
+            </div>
+
+            <button id="botonAgregarLista"
+                style="position: fixed; bottom: 30px; right: 720px; height: 65px; width: 65px; border-radius: 50px; border: none;"
+                class="mdc-fab mdc-fab--mini mdc-fab--touch agregarListaButton">
+                <span class="material-icons">
+                    add
+                </span>
+            </button>
+            <button id="homeButton"
+                style="position: fixed; bottom: 33px; right: 900px; height: 55px; width: 55px; border-radius: 50px; border: none;"
+                class="mdc-fab mdc-fab--mini mdc-fab--touch homeButton">
+                <span class="material-icons">
+                    home
+                </span>
+            </button>
+            <button id="transaccionesButton"
+                style="position: fixed; bottom: 33px; right: 540px; height: 55px; width: 55px; border-radius: 50px; border: none;"
+                class="mdc-fab mdc-fab--mini mdc-fab--touch transaccionesButton">
+                <span class="material-icons">
+                    list
+                </span>
+            </button>
+        </section>
+        <section style="margin-top: 70px; margin-bottom: 0px; padding: 0px;" class="content sample-content--hidden">
+            <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                <div style="width: 100%; display: flex; align-items: center; justify-content: space-between;">
+                    <h1 style="padding-left: 20px; font: Roboto; font-weight: 600;" id="nombreListaActual">
+
+                    </h1>
+
+                    <p style="font-weight: bold; padding-right: 80px;" id="totalLista"></p>
+                </div>
+                <table style="width: 100%;" id="listaActuales">
+                </table>
+
+            </div>
+
+            <hr />
+            <div
+                style="display: flex; align-items: center; justify-content: space-between; flex-direction: column; margin: 20px;">
+                <div style="display: flex; width: 100%; justify-content: space-between; align-items: center;">
+                    <h2 style="align-self:flex-start; display: flex; font: Roboto; font-weight: 300;">Otros Productos
+                    </h2>
+                    <div class="mdc-select mdc-select--filled demo-width-class">
+                        <div class="mdc-select__anchor" role="button" aria-haspopup="listbox" aria-expanded="false"
+                            aria-labelledby="demo-label demo-selected-text">
+                            <span class="mdc-select__ripple"></span>
+                            <span class="mdc-select__selected-text-container">
+                                <span id="demo-selected-text" class="mdc-select__selected-text"></span>
+                            </span>
+                            <span class="mdc-select__dropdown-icon">
+                                <svg class="mdc-select__dropdown-icon-graphic" viewBox="7 10 10 5" focusable="false">
+                                    <polygon class="mdc-select__dropdown-icon-inactive" stroke="none"
+                                        fill-rule="evenodd" points="7 10 12 15 17 10">
+                                    </polygon>
+                                    <polygon class="mdc-select__dropdown-icon-active" stroke="none" fill-rule="evenodd"
+                                        points="7 15 12 10 17 15">
+                                    </polygon>
+                                </svg>
+                            </span>
+                            <span class="mdc-line-ripple"></span>
+                        </div>
+
+                        <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth">
+                            <ul class="mdc-list" role="listbox" aria-label="Food picker listbox">
+                                <li class="mdc-list-item mdc-list-item--selected" aria-selected="true" data-value=""
+                                    role="option">
+                                    <span class="mdc-list-item__ripple"></span>
+                                    <span class="mdc-list-item__text">
+                                        Todas
+                                    </span>
+                                </li>
+                                <li class="mdc-list-item" aria-selected="false" data-value="frutas" role="option">
+                                    <span class="mdc-list-item__ripple"></span>
+                                    <span class="mdc-list-item__text">
+                                        Frutas
+                                    </span>
+                                </li>
+                                <li class="mdc-list-item" aria-selected="false" data-value="verduras" role="option">
+                                    <span class="mdc-list-item__ripple"></span>
+                                    <span class="mdc-list-item__text">
+                                        Verduras
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <section id="tablaProductos"
+                    style="margin-top: 20px; padding: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; width: 100%;"
+                    class="content">
+                    <table style="width: 100%;" id="listaProductos">
+                    </table>
+                </section>
+            </div>
+            <div id="tvesModal" class="modalContainer">
+                <div class="modal-content">
+                    <span class="close">×</span>
+                    <h2 id="tituloAniadirProd">Añadir producto</h2>
+                    <span class="producto">
+                        <div class="mdc-contenido-producto">
+                            <table style="border-collapse: separate; border-spacing: 20px 10px; border-top: 0px;">
+                                <tbody>
+                                    <tr class="primerTd">
+                                        <td><label for="descripcion" text-align="left">Descripción:</label></td>
+                                        <td id="inp1">
+                                            <p id="descripcion-producto" name="descripcion" float="right"></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label id="cantidad" for="cantidad">Cantidad:</label></td>
+                                        <td id="inp2">
+                                            <input type="number" id="cantidadProducto" name="cantidad" min="0" value=0
+                                                size=32>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="proveedores">Proveedores:</label></td>
+                                        <td id="inp2"><select id="selectProveedores" name="proveedores"></select></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="precio">Precio:</label></td>
+                                        <td id="inp2">
+                                            <p id="precio-producto" name="precio" float="right"></p> </select>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="div-card-modal">
+                            <div class="mdc-card" id="aniadirProd">
+                                <h4 id="nombreProducto"></h4>
+                                <div class="mdc-card-imagen">
+                                    <img id="imagenProducto" alt="imagenProducto" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </span>
+
+                    <div class="mdc-touch-target-wrapper" id="opciones-modal" style="display: flex; ">
+                        <button class="mdc-button mdc-button--outlined" id="btn-descartar-modal" type="reset"
+                            style="background-color: #c7c7c7; color: white;   border: none;">
+                            <span class="mdc-button__ripple"></span>
+                            <span class="mdc-button__label">Descartar</span>
+                        </button>
+                        <button class="mdc-button mdc-button--outlined" id="btn-aniadir-modal"
+                            style="background-color: #558B2F; color: white;   border: none;">
+                            <span class="mdc-button__ripple"></span>
+                            <span class="mdc-button__label">Añadir</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Alert Dialog -->
+        <div id="alertDialog" class="mdc-dialog" role="alertdialog" aria-modal="true" aria-labelledby="my-dialog-title"
+            aria-describedby="my-dialog-content">
+
+            <div class="mdc-dialog__container">
+                <div class="mdc-dialog__surface">
+                    <h2 class="mdc-dialog__title" id="alertDialogTitle">
+
+                    </h2>
+                    <div id="alertDialogContent" class="mdc-dialog__content data-mdc-dialog-initial-focus"
+                        id="my-dialog-content">
+
+                    </div>
+                    <footer class="mdc-dialog__actions">
+                        <button type="button" class="mdc-button mdc-dialog__button" data-mdc-dialog-action="close"
+                            style="background-color: #c7c7c7; color: white; ">
+                            <span class="mdc-button__label">Cancelar</span>
+                        </button>
+                        <button id="alertDialogButton" type="button"
+                            class="mdc-button mdc-dialog__button data-mdc-dialog-button-default"
+                            data-mdc-dialog-action="accept" style="background-color: #558B2F; color: white;">
+                            <span class="mdc-button__label">Aceptar</span>
+                        </button>
+                    </footer>
+                </div>
+            </div>
+            <div class="mdc-dialog__scrim"></div>
+        </div>
+
+        <!-- Snackbar -->
+        <div class="mdc-snackbar">
+            <div class="mdc-snackbar__surface" role="status" aria-relevant="additions">
+                <div id="snackBarText" class="mdc-snackbar__label" aria-atomic="false">
+                    Can't send photo. Retry in 5 seconds.
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+<script src="bundle.js" async></script>
+
+</html>
