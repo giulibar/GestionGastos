@@ -2,6 +2,7 @@ import { MDCTabBar } from '@material/tab-bar';
 import { MDCDialog } from '@material/dialog';
 import { MDCSnackbar } from '@material/snackbar';
 import {MDCSelect} from '@material/select';
+import {MDCTextField} from '@material/textfield';
 
 import Usuario from '../../dominio/usuario.js';
 import { cleanNode, createData, getImagenProd } from './utils';
@@ -278,7 +279,8 @@ function editarLista(nombreLista) {
 }
 
 // Agregar lista nueva a lista principal
-function crearLista() {
+function agregarTransaccion() {
+	const textField = new MDCTextField(document.querySelector('.mdc-text-field'));
 	const input = document.createElement('input');
 	input.id = 'inputDialogNombreLista';
 	input.type = 'text';
@@ -332,8 +334,8 @@ function dibujarListaPrincipal() {
 	listaPrincipal.forEach(item => { agregarListaAListaPrincipal(item.nombre); });
 }
 
-const botonAgregarLista = document.querySelector('#botonAgregarLista');
-botonAgregarLista.addEventListener('click', crearLista);
+const botonAgregarLista = document.querySelector('#botonAgregar');
+botonAgregarLista.addEventListener('click', agregarTransaccion);
 
 
 //Ventana modal
