@@ -21,53 +21,59 @@
     <!-- CONTENIDO PAGINA DE INICIO -->
     <main class="main" style="position: fixed;">
 
-        <section class="content" style="position: fixed;">
+        <section class="home" style="position: fixed;" id="homeId">
 
             <!-- CARDS -->
             <div class="contenedor-cards">
+
+                <!-- cards de arriba -->
                 <div class="cards-top">
+                    <!-- card balance -->
                     <div class="mdc-card card-saldo">
                         <div class="mdc-card__primary-action" tabindex="0" style="width: 100%; height: 100%;">
                             <!-- content within actionable area -->
-                            <h3 id="numeroSaldo" style="color: rgb(255, 255, 255);">Balance</h3>
-                            <h3 id="numeroSaldo" style="color: rgb(255, 255, 255);">$10.000</h3>
+                            <h1 style="color: rgb(255, 255, 255);">Balance</h1>
+                            <h1 id="balanceActual" style="color: rgb(255, 255, 255); font-size: 30px;">$0</h1>
                             <div class="mdc-card__ripple"></div>
                         </div>
-                        <!-- ... content ... -->
                     </div>
-                    <div class="mdc-card card-pagar">
+                    <!-- card pagar -->
+                    <div id="botonPagar" class="mdc-card card-pagar">
+                        <!--ocultar el resto de las secciones-->
                         <div class="mdc-card__primary-action" tabindex="0" style="width: 100%; height: 100%;">
-                            <!-- content within actionable area -->
                             <div class="mdc-card__media">
-                                <h3 id="numeroSaldo" style="color: rgb(0, 0, 0);">Pagar</h3>
+                                <img src="./resources/images/pagar.jpg" alt="grupos"
+                                    style="height: 100%; width: 50%; float: left; margin-top: 3%;">
+                                <h1 id="numeroSaldo" style="color: rgb(0, 0, 0);">Pagar</h1>
                             </div>
                             <div class="mdc-card__ripple"></div>
                         </div>
-                        <!-- ... content ... -->
                     </div>
                 </div>
 
+                <!-- cards de abajo -->
                 <div class="cards-bottom">
+                    <!-- card grafica -->
                     <div class="mdc-card card-grafica">
                         <div class="mdc-card__primary-action" tabindex="0" style="width: 100%; height: 100%;">
                             <!-- content within actionable area -->
                             <h3 id="numeroSaldo" style="color: rgb(0, 0, 0);">Grafica</h3>
                             <div class="mdc-card__ripple"></div>
                         </div>
-                        <!-- ... content ... -->
                     </div>
+                    <!-- card grupos -->
                     <div class="mdc-card card-grupos">
                         <div class="mdc-card__primary-action" tabindex="0" style="width: 100%; height: 100%;">
                             <!-- content within actionable area -->
                             <div class="mdc-card__media">
                                 <img src="./resources/images/grupos.jpg" alt="grupos"
-                                    style="height: 80%; width: 80%; align-self: center; ">
-                                <h1 id="numeroSaldo" style="color: rgb(46, 46, 46);">Grupos</h1>
+                                    style="height: 75%; width: 75%; align-self: center; ">
+                                <h1 id="numeroSaldo" style="color: rgb(0, 0, 0);">Grupos</h1>
                             </div>
                             <div class="mdc-card__ripple"></div>
                         </div>
-                        <!-- ... content ... -->
                     </div>
+                    <!-- card consejo -->
                     <div class="mdc-card card-consejo">
                         <div class="mdc-card__primary-action" tabindex="0" style="width: 100%; height: 100%;">
                             <!-- content within actionable area -->
@@ -76,18 +82,13 @@
                             </div>
                             <div class="mdc-card__ripple"></div>
                         </div>
-                        <!-- ... content ... -->
                     </div>
                 </div>
-
-                <!-- Rounded switch fijo/noFijo -->
-                <label class="switch">
-                    <input type="checkbox" checked>
-                    <span class="slider round"></span>
-                </label>
-
+            
             </div>
-
+        </section>
+        
+        <section id="botonesNav">
             <!-- BOTONES BARRA PRINCIPAL -->
             <div class="botones-nav" style="margin: auto; width: 90%; background-color: blue;">
 
@@ -117,51 +118,206 @@
                         list
                     </span>
                 </button>
-
             </div>
+        </section>>
 
-        </section>
+        <!-- AGREGAR -->
+        <section id="seccionAgregar"
+            style="position: fixed; visibility: hidden; margin-top: 70px; margin-bottom: 0px; padding: 0px;"
+            class="content sample-content--hidden">
+            <a href="seccionAgregar">
 
-        <!-- Agregar -->
-        <section class="agregar" style="position: fixed;">
-            <a href="paginaAgregar">
+                <!-- INICIO VENTANA MODAL -->
+                <div id="tvesModal" class="modalContainer">
+                    <div class="modal-content">
+                        <span class="close">×</span>
+                        <h2 id="tituloAniadirProd">Añadir producto</h2>
+                        <span class="producto">
+                            <div class="mdc-contenido-producto">
+                                <table style="border-collapse: separate; border-spacing: 20px 10px; border-top: 0px;">
+                                    <tbody>
+                                        <tr class="primerTd">
+                                            <td><label for="descripcion" text-align="left">Descripción:</label></td>
+                                            <td id="inp1">
+                                                <p id="descripcion-producto" name="descripcion" float="right"></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><label id="cantidad" for="cantidad">Cantidad:</label></td>
+                                            <td id="inp2">
+                                                <input type="number" id="cantidadProducto" name="cantidad" min="0"
+                                                    value=0 size=32>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><label for="proveedores">Proveedores:</label></td>
+                                            <td id="inp2"><select id="selectProveedores" name="proveedores"></select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><label for="precio">Precio:</label></td>
+                                            <td id="inp2">
+                                                <p id="precio-producto" name="precio" float="right"></p> </select>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="div-card-modal">
+                                <div class="mdc-card" id="aniadirProd">
+                                    <h4 id="nombreProducto"></h4>
+                                    <div class="mdc-card-imagen">
+                                        <img id="imagenProducto" alt="imagenProducto" />
+                                    </div>
+                                </div>
+                            </div>
+
+                        </span>
+
+                        <div class="mdc-touch-target-wrapper" id="opciones-modal" style="display: flex; ">
+                            <button class="mdc-button mdc-button--outlined" id="btn-descartar-modal" type="reset"
+                                style="background-color: #c7c7c7; color: white;   border: none;">
+                                <span class="mdc-button__ripple"></span>
+                                <span class="mdc-button__label">Descartar</span>
+                            </button>
+                            <button class="mdc-button mdc-button--outlined" id="btn-aniadir-modal"
+                                style="background-color: #558B2F; color: white;   border: none;">
+                                <span class="mdc-button__ripple"></span>
+                                <span class="mdc-button__label">Añadir</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIN CODIGO VENTANA MODAL -->
+
                 <div class="mdc-card card-Agregar">
-                    <div class="mdc-card__primary-action" tabindex="0" style="width: 100%; height: 100%;">
+                    <div class="mdc-card__primary-action" tabindex="0" style="width: 90%; height: 90%;">
                         <!-- content within actionable area -->
                         <div class="mdc-card__ripple"></div>
                     </div>
-                    <!-- textfield -->
+                    <!-- Nombre -->
                     <label class="mdc-text-field mdc-text-field--filled">
                         <span class="mdc-text-field__ripple"></span>
-                        <span class="mdc-floating-label" id="my-label-id">Hint text</span>
-                        <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+                        <span class="mdc-floating-label" id="nombreAgregar">Nombre</span>
+                        <input class="mdc-text-field__input" type="text" aria-labelledby="nombreAgregar">
                         <span class="mdc-line-ripple"></span>
                     </label>
-                    <!-- ... content ... -->
+                    <!-- Tipo -->
+                    <label class="mdc-text-field mdc-text-field--filled">
+                        <span class="mdc-text-field__ripple"></span>
+                        <span class="mdc-floating-label" id="tipoAgregar">Gasto/Ingreso</span>
+                        <input class="mdc-text-field__input" type="text" aria-labelledby="tipoAgregar">
+                        <span class="mdc-line-ripple"></span>
+                    </label>
+                    <!-- Monto -->
+                    <label class="mdc-text-field mdc-text-field--filled">
+                        <span class="mdc-text-field__ripple"></span>
+                        <span class="mdc-floating-label" id="montoAgregar">Monto</span>
+                        <input class="mdc-text-field__input" type="text" aria-labelledby="montoAgregar">
+                        <span class="mdc-line-ripple"></span>
+                    </label>
+                    <!-- Categoria -->
+                    <label class="mdc-text-field mdc-text-field--filled">
+                        <h3></h3>
+                        <SELECT id="categoriaAgregar">
+                            <OPTION Value="Transporte">Transporte</OPTION>
+                            <OPTION Value="Salud">Salud</OPTION>
+                            <OPTION Value="Alimentacion">Alimentacion</OPTION>
+                            <OPTION Value="Sueldo">Sueldo</OPTION>
+                        </SELECT>
+                    </label>
+                    <!-- Descripcion -->
+                    <label class="mdc-text-field mdc-text-field--filled">
+                        <span class="mdc-text-field__ripple"></span>
+                        <span class="mdc-floating-label" id="descripcionAgregar">Descripcion</span>
+                        <input class="mdc-text-field__input" type="text" aria-labelledby="descripcionAgregar">
+                        <span class="mdc-line-ripple"></span>
+                    </label>
+                    <!-- Fijo -->
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round">No fijo / Fijo</span>
+                    </label>
+                    <!-- Boton agregar -->
+                    <button id="botonAgregar"
+                        style="position: fixed; bottom: 33px; right: 1000px; height: 50px; width: 150px; border-radius: 50px; border: none;"
+                        class="mdc-fab mdc-fab--mini mdc-fab--touch homeButton">Agregar</button>
                 </div>
-
             </a>
         </section>
 
-        <!-- Pagar -->
-        <section>
-            <a href="paginaPagar">
-
+        <!-- PAGAR -->
+        <section id="seccionPagar" style="visibility: hidden; margin-top: 70px; margin-bottom: 0px; padding: 0px;"
+            class="content sample-content--hidden">
+            <a href="seccionPagar">
+                <!-- Codigo GCiD del contacto -->
+                <label class="mdc-text-field mdc-text-field--filled">
+                    <span class="mdc-text-field__ripple"></span>
+                    <span class="mdc-floating-label" id="codigoGCiDPagar">Codigo GCiD</span>
+                    <input class="mdc-text-field__input" type="text" aria-labelledby="codigoGCiDPagar">
+                    <span class="mdc-line-ripple"></span>
+                </label>
+                <!-- Monto -->
+                <label class="mdc-text-field mdc-text-field--filled">
+                    <span class="mdc-text-field__ripple"></span>
+                    <span class="mdc-floating-label" id="montoPagar">Monto</span>
+                    <input class="mdc-text-field__input" type="text" aria-labelledby="montoPagar">
+                    <span class="mdc-line-ripple"></span>
+                </label>
+                <!-- Categoria -->
+                <label class="mdc-text-field mdc-text-field--filled">
+                    <h3></h3>
+                    <SELECT id="categoriaPagar">
+                        <OPTION Value="Transporte">Transporte</OPTION>
+                        <OPTION Value="Salud">Salud</OPTION>
+                        <OPTION Value="Alimentacion">Alimentacion</OPTION>
+                        <OPTION Value="Sueldo">Sueldo</OPTION>
+                    </SELECT>
+                </label>
+                <!-- Descripcion -->
+                <label class="mdc-text-field mdc-text-field--filled">
+                    <span class="mdc-text-field__ripple"></span>
+                    <span class="mdc-floating-label" id="descripcionPagar">Descripcion</span>
+                    <input class="mdc-text-field__input" type="text" aria-labelledby="descripcionPagar">
+                    <span class="mdc-line-ripple"></span>
+                </label>
+                <!-- Agregar pago -->
+                <button id="botonAgregarPago"
+                    style="position: fixed; bottom: 33px; right: 1000px; height: 50px; width: 150px; border-radius: 50px; border: none;"
+                    class="mdc-fab mdc-fab--mini mdc-fab--touch botonAgregarPagar">Agregar</button>
             </a>
         </section>
 
-        <!-- Transacciones -->
-        <section>
-            <a href="paginaTransacciones">
-
+        <!-- TRANSACCIONES -->
+        <section id="seccionTransacciones"
+            style="margin-top: 70px; margin-bottom: 0px; padding: 0px; visibility: hidden;"
+            class="content sample-content--hidden">
+            <a href="seccionTransacciones">
+                <table>
+                    <!-- Headers -->
+                    <tr style="font-weight: bold;">
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Fecha</th>
+                        <th>Monto</th>
+                        <!-- boton para editar/eliminar gasto/ingreso -->
+                    </tr>
+                    <!-- Gasto/ingreso -->
+                    <tr>
+                        <td>Agua</td>
+                        <td>Super</td>
+                        <td>8/11/2021</td>
+                        <td>$90</td>
+                    </tr>
+                    <tr>
+                        <td>Jamon</td>
+                        <td>Super</td>
+                        <td>8/11/2021</td>
+                        <td>$200</td>
+                    </tr>
+                </table>
             </a>
         </section>
-
-        <!-- OTRA PANTALLA -->
-        <section style="margin-top: 70px; margin-bottom: 0px; padding: 0px;" class="content sample-content--hidden">
-
-        </section>
-
 
         <!-- Alert Dialog -->
         <div id="alertDialog" class="mdc-dialog" role="alertdialog" aria-modal="true" aria-labelledby="my-dialog-title"
