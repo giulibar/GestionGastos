@@ -12,3 +12,7 @@
   * [Bocetos UI](especificacion/bocetos-ui.md)
 * [Validación y verificación](validacion-y-verificacion.md)
 * [Reflexión](reflexion.md)
+
+## Group 1
+
+* [Presentaciones](group-1/presentaciones.md)

@@ -43,7 +43,7 @@
 
 5\. 3. El usuario intenta registrarse con un correo de una cuenta ya existente: aparece un mensaje de error notificando que existe una cuenta asociada a ese correo.
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (12) (1).png>)
 
 ## Caso de uso 3
 
