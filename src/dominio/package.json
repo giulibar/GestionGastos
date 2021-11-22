@@ -7,8 +7,7 @@
   "description": "Domino de la web app Verdulista",
   "main": "index.js",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest --coverage",
-    "testWindows": "node --experimental-vm-modules node_modules/jest/bin/jest --coverage"
+    "test": "jest --coverage"
   },
   "author": "Tomas Amado, Romina Giaccio, Rodrigo Gonzalez",
   "license": "",
