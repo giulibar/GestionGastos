@@ -1,3 +1,5 @@
+<!-- VITTORIO CAIAFA 252295 - GIULIANO BARDECIO 256113 -->
+
 <!DOCTYPE html>
 <html>
 
@@ -106,16 +108,12 @@
                                         var options = {
                                             'width': 450,
                                             'height': 350,
-                                            colors: ['#5600b8', '#6200d3', '#7700ff', '#9900ff', '#f6c7b6'],
+                                            colors: ['#00796b', '#439889', '#004c40', '#48a999', '#00897b'],
                                             backgroundColor: 'transparent',
-
-
                                         };
-
                                         // Instantiate and draw our chart, passing in some options.
                                         var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
                                         chart.draw(data, options);
-
                                     }
                                 </script>
 
@@ -213,7 +211,7 @@
 
             <div class="mdc-card card-Agregar">
 
-                <h2>Agregar</h2>
+                <h2 id="idAgregarcoso">Agregar</h2>
 
                 <!-- Tipo -->
                 <label class="mdc-text-field mdc-text-field">
@@ -275,6 +273,8 @@
                         <option value="Salud">Salud</option>
                         <option value="Alimentacion">Alimentacion</option>
                         <option value="Sueldo">Sueldo</option>
+                        <option value="Facturas">Facturas</option>
+                        <option value="Otros">Otros</option>
                     </select>
                 </label>
 
@@ -410,6 +410,86 @@
             </div>
             <!-- </div> -->
             </div>
+        </section>
+
+
+          <!-- AGREGAR -->
+        <section id="seccionAgregar" style="visibility: hidden; margin-top: 120px; margin-left: 605px; width: 500px;"
+            class="content sample-content--hidden;">
+
+            <div class="mdc-card card-Agregar">
+
+                <h2>Agregar</h2>
+
+                <!-- Tipo -->
+                <label class="mdc-text-field mdc-text-field">
+                    <label class="switch switch-tipo" checked>
+                        <input type="checkbox" id="idTipoAgregar">
+                        <span class="slider round">
+                            <span class="on">Gasto</span>
+                            <span class="off">Ingreso</span>
+                        </span>
+                    </label>
+                </label>
+
+                <!-- Nombre -->
+                <label class="mdc-text-field mdc-text-field--outlined" id="nombre">
+                    <span class="mdc-notched-outline">
+                        <span class="mdc-notched-outline__leading"></span>
+                        <span class="mdc-notched-outline__notch">
+                            <span class="mdc-floating-label">Nombre</span>
+                        </span>
+                        <span class="mdc-notched-outline__trailing"></span>
+                    </span>
+                    <input type="text" class="mdc-text-field__input" aria-labelledby="title" id="inputNombre" required>
+                </label>
+
+                <!-- Monto -->
+                <label class="mdc-text-field mdc-text-field--outlined" id="monto">
+                    <span class="mdc-notched-outline">
+                        <span class="mdc-notched-outline__leading"></span>
+                        <span class="mdc-notched-outline__notch">
+                            <span class="mdc-floating-label">Monto</span>
+                        </span>
+                        <span class="mdc-notched-outline__trailing"></span>
+                    </span>
+                    <input type="number" class="mdc-text-field__input" aria-labelledby="title" id="inputMonto" required
+                        min=0>
+                </label>
+
+                <!-- Descripcion -->
+                <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea mdc-text-field--no-label"
+                    id="descripcion">
+                    <span class="mdc-notched-outline">
+                        <span class="mdc-notched-outline__leading"></span>
+                        <span class="mdc-notched-outline__notch">
+                            <span class="mdc-floating-label">Descripcion</span>
+                        </span>
+                        <span class="mdc-notched-outline__trailing"></span>
+                    </span>
+                    <span class="mdc-text-field__resizer">
+                        <textarea class="mdc-text-field__input" rows="3" cols="40" aria-label="Label"
+                            id="inputDes"></textarea>
+                    </span>
+                </label>
+
+                <!-- Categoria -->
+                <label class="mdc-text-field mdc-text-field" id="categoria">
+                    <span class="mdc-floating-label">Categoria</span>
+                    <select id="categoriaAgregar" style="margin-left: 100px; ">
+                        <option value="Transporte" selected>Transporte</option>
+                        <option value="Salud">Salud</option>
+                        <option value="Alimentacion">Alimentacion</option>
+                        <option value="Sueldo">Sueldo</option>
+                    </select>
+                </label>
+
+                <!-- Boton agregar -->
+                <button class="mdc-button mdc-button--raised" id="botonAgregarIG">
+                    <span class="mdc-button__label">Agregar</span>
+                </button>
+            </div>
+
         </section>
 
         <!-- Alert Dialog -->

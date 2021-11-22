@@ -1,3 +1,5 @@
+// VITTORIO CAIAFA 252295 - GIULIANO BARDECIO 256113
+
 import {
 	MDCTabBar
 } from '@material/tab-bar';
@@ -26,11 +28,11 @@ import {
 	getImagenProd
 } from './utils';
 
-import sistema from '../../dominio/sistema';
-import transaccion from '../../dominio/transaccion';
 
+import Sistema from '../../dominio/sistema';
+import Transaccion from '../../dominio/transaccion';
 
-const Sistema = new sistema();
+const sistema = new Sistema();
 
 const textFieldNombre = new MDCTextField(document.getElementById('nombre'));
 const textFieldMonto = new MDCTextField(document.getElementById('monto'));
@@ -111,26 +113,8 @@ function agregarIG() {
 
 	monto = parseInt(monto);
 	if (cumpleNombre && cumpleMonto) {
-		var Transaccion = new transaccion(nombre, tipoInput, monto, categoria);
-		Sistema.setTransacciones(Transaccion);
-
-		if (tipoInput) {
-			Sistema.setGasto(monto);
-			Sistema.setBalance(-monto);
-		} else {
-			Sistema.setIngreso(monto);
-			Sistema.setBalance(monto);
-		}
-
-		// if(categoria == "Alimentacion"){
-		// 	Sistema.sumarPorCategoria(0);
-		// } else if (categoria == "Salud"){
-		// 	Sistema.sumarPorCategoria(1);
-		// } else if (categoria == "Seguridad"){
-		// 	Sistema.sumarPorCategoria(2);
-		// } else if (categoria == "Trabajo"){
-		// 	Sistema.sumarPorCategoria(3);
-		// }
+		var transaccion = new Transaccion(nombre, tipoInput, monto, categoria);
+		sistema.setTransacciones(transaccion);
 
 		vaciarCamposTextoAgregar();
 		actualizarBalance();
@@ -143,9 +127,20 @@ function actualizarBalance() {
 	let ingreso = document.getElementById('ingreso');
 	let gasto = document.getElementById('gasto');
 
-	let nroBalance = Sistema.getBalance();
-	let nroIngreso = Sistema.getIngreso();
-	let nroGasto = Sistema.getGasto();
+	let nroBalance = 0;
+	let nroIngreso = 0;
+	let nroGasto = 0;
+
+	let transacciones = sistema.getTransacciones();
+	for (let i = 0; i < transacciones.length; i++){ // false si es gasto
+		if(transacciones[i].getTipo()){
+			nroBalance -= transacciones[i].getMonto();
+			nroGasto += transacciones[i].getMonto(); 
+		} else {
+			nroBalance += transacciones[i].getMonto();
+			nroIngreso += transacciones[i].getMonto(); 
+		}
+	}
 
 	ingreso.innerHTML = nroIngreso;
 	gasto.innerHTML = nroGasto;
@@ -155,7 +150,7 @@ function actualizarBalance() {
 function actualizarTabla() {
 
 	let tabla = document.getElementById('idTBody');
-	let transacciones = Sistema.getTransacciones();
+	let transacciones = sistema.getTransacciones();
 
 	let template = ``;
 	tabla.innerHTML = template;
@@ -222,17 +217,37 @@ function actualizarTabla() {
 }
 
 function editarLista(nombreTx) {
-	console.log(nombreTx);
+	const transacciones2 = sistema.getTransacciones();
+	let editar;
+	for (let i = 0; i < transacciones2.length; i++) {
+		if (transacciones2[i].getNombre() == nombreTx) {
+			editar = transacciones2[i];
+			transacciones2.splice(i, 1);
+		}
+	}
+	mostrarSeccionAgregar();
+	document.getElementById("inputNombre").value = editar.getNombre();
+	document.getElementById("inputMonto").value = editar.getMonto();
+	document.getElementById('botonAgregarIG').innerHTML = "GARDAR";
+	document.getElementById("idAgregarcoso").innerHTML = "Editar"
+
+	//document.getElementById('categoriaAgregar');
+	//var categoria = select.options[select.selectedIndex].text;
+	document.getElementById("idTipoAgregar").checked = editar.getTipo();
+
+	actualizarTabla();
+	actualizarBalance();
 }
 
-function eliminarLista(nombreTx){
-	const transacciones2 = Sistema.getTransacciones();
-	for (let i = 0; i < transacciones2.length; i++){
-		if (transacciones2[i].getNombre() == nombreTx){
-		transacciones2.splice(i, 1);
+function eliminarLista(nombreTx) {
+	const transacciones3 = sistema.getTransacciones();
+	for (let i = 0; i < transacciones3.length; i++) {
+		if (transacciones3[i].getNombre() == nombreTx) {
+			transacciones3.splice(i, 1);
 		}
 	}
 	actualizarTabla();
+	actualizarBalance();
 }
 
 function vaciarCamposTextoAgregar() {
@@ -244,47 +259,34 @@ function vaciarCamposTextoAgregar() {
 
 
 // agregar pago a la tabla
-let btnPagar = document.getElementById('botonAgregarPago');
-btnPagar.addEventListener('click', agregarPagoTabla);
+let btnPagar_ = document.getElementById('botonAgregarPago');
+btnPagar_.addEventListener('click', agregarPagoTabla);
 
 function agregarPagoTabla() {
 	let nombre = "Pago";
-	let montoInput = document.getElementById("inputMontoPagar");
+	let monto = document.getElementById("inputMontoPagar").value;
 	var select = document.getElementById('categoriaAgregarPagar');
 	var categoria = select.options[select.selectedIndex].text;
-	let tipoInput = false;
+	let tipoInput = true;
 
-	let cumpleCodigo = true;
+	let cumpleNombre = true;
 	let cumpleMonto = true;
-	if (nombre2 == "" && (monto <= 0 || monto == "")) {
-		alert("CodigoGCiD y monto invalidos!");
-		cumpleCodigo = false;
+	if (nombre == "" && (monto <= 0 || monto == "")) {
+		alert("Nombre y monto invalidos!");
+		cumpleNombre = false;
 		cumpleMonto = false;
-	} else if (nombre2 == "") {
-		alert("CodigoGCiD invalido!");
-		cumpleCodigo = false;
+	} else if (nombre == "") {
+		alert("Nombre invalido!");
+		cumpleNombre = false;
 	} else if (monto <= 0 || monto == "") {
 		alert("Monto invalido!");
 		cumpleMonto = false;
 	}
 
 	monto = parseInt(monto);
-	if (cumpleCodigo && cumpleMonto) {
-		var transaccion = new transaccion(nombre, tipoInput, monto, categoria);
-		Sistema.setTransacciones(Transacciones);
-
-		Sistema.setGasto(monto);
-		Sistema.setBalance(monto);
-
-		// if(categoria == "Alimentacion"){
-		// 	Sistema.sumarPorCategoria(0);
-		// } else if (categoria == "Salud"){
-		// 	Sistema.sumarPorCategoria(1);
-		// } else if (categoria == "Seguridad"){
-		// 	Sistema.sumarPorCategoria(2);
-		// } else if (categoria == "Trabajo"){
-		// 	Sistema.sumarPorCategoria(3);
-		// }
+	if (cumpleNombre && cumpleMonto) {
+		var transaccion = new Transaccion(nombre, tipoInput, monto, categoria);
+		sistema.setTransacciones(transaccion);
 
 		vaciarCamposTextoPagar();
 		actualizarBalance();
@@ -297,44 +299,3 @@ function vaciarCamposTextoPagar() {
 	document.getElementById("inputMontoPagar").value = "";
 	document.getElementById("inputDesPagar").value = "";
 }
-
-// // Editar transaccion
-// let btnEditar = document.getElementById('botonAgregarPago');
-// btnPagar.addEventListener('click', editarTransaccion);
-
-// function editarTransaccion(){
-// 	let tabla = document.getElementById('idEditar');
-// 	let transacciones = Sistema.getTransacciones();
-// 	// let nombreEditar = ;
-// 	// let nombreEditar = ;
-// 	// let nombreEditar = ;
-// 	// let nombreEditar = ;
-// 	// let nombreEditar = ;
-// 	for(int i=0; i<transacciones.length; i++){
-// 		let cont = 0;
-// 	 	if(transacciones[i].getNombre() == ""){
-// 			cont++;
-// 	 	}
-// 		 if(transacciones[i].getMonto() == ""){
-// 			cont++;
-// 		}
-// 		if(transacciones[i].getTipo() == ""){
-// 			cont++;
-// 		}
-// 		if(transacciones[i].getCategoria() == ""){
-// 			cont++;
-// 		}
-// 		if(transacciones[i].getFecha() == ""){
-// 			cont++;
-// 		}
-// 		if(cont == 5){
-
-// 		}
-// 	}
-// }
-
-// Borrar transaccion
-function borrarTransaccion() {
-
-}
-

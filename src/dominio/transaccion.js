@@ -1,5 +1,5 @@
 
-class transaccion {
+class Transaccion {
     constructor(_nombre, _tipo, _monto, _categoria){
         this.nombre = _nombre;
         this.tipo = _tipo; // false si es gasto
@@ -11,38 +11,39 @@ class transaccion {
     getNombre(){
         return this.nombre;
     }
-    setNombre(_nombre){
-        this.nombre = _nombre;
+
+    setNombre(name){
+        this.nombre = name;
     }
 
     getTipo(){
         return this.tipo;
     }
-    setTipo(_tipo){
-        this.tipo = _tipo;
+
+    setTipo(type){
+        this.tipo = type;
     }
 
     getMonto(){
         return this.monto;
     }
-    setMonto(_monto){
-        this.monto = _monto;
+
+    setMonto(amount){
+        this.monto = amount;
     }
 
     getFecha(){
         return this.fecha;
     }
-    setFecha(_fecha){
-        this.fecha = _fecha;
-    }
 
     getCategoria(){
         return this.categoria;
     }
-    setCategoria(_cat){
-        this.categoria = _cat;
+
+    setCategoria(category){
+        this.categoria = category;
     }
 
 }
 
-export default transaccion;
+export default Transaccion;

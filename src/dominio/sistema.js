@@ -1,6 +1,6 @@
-import transaccion from "./transaccion";
+import Transaccion from './transaccion.js';
 
-class sistema {
+class Sistema {
     constructor(){
         this.balance = 0;
         this.gasto = 0;
@@ -12,6 +12,7 @@ class sistema {
     getBalance(){
         return this.balance;
     }
+    
     setBalance(_balance){
         this.balance += _balance;
     }
@@ -19,6 +20,7 @@ class sistema {
     getGasto(){
         return this.gasto;
     }
+
     setGasto(_gasto){
         this.gasto += _gasto;
     }
@@ -26,6 +28,7 @@ class sistema {
     getIngreso(){
         return this.ingreso;
     }
+
     setIngreso(_ingreso){
         this.ingreso += _ingreso;
     }
@@ -33,6 +36,7 @@ class sistema {
     getTransacciones(){
         return this.transacciones;
     }
+
     setTransacciones(_transaccion){
         this.transacciones.push(_transaccion);
     }
@@ -43,4 +47,4 @@ class sistema {
 
 }
 
-export default sistema;
+export default Sistema;
