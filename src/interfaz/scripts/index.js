@@ -159,7 +159,6 @@ function actualizarTabla() {
 
 	let template = ``;
 	tabla.innerHTML = template;
-	tabla.appendChild(document.createElement('tr'))
 
 	for (let i = 0; i < transacciones.length; i++) {
 
@@ -170,58 +169,70 @@ function actualizarTabla() {
 		var tipo = transacciones[i].getTipo();
 
 		const tr = document.createElement('tr');
-		const tdNombre = document.createElement('td');
-		tdNombre.value = nombre;
+		const tdNombre = document.createElement('th');
+		tdNombre.innerHTML = nombre;
 		if (tipo) {
-			tdNombre.style = 'color: red;';
+			tdNombre.style = 'color:red;';
 		} else {
-			tdNombre.style = 'color: green;';
+			tdNombre.style = 'color:green;';
 		}
 		const tdCat = document.createElement('td');
-		tdCat.value = categoria;
+		tdCat.innerHTML = categoria;
 		const tdFecha = document.createElement('td');
-		tdFecha.value = fecha;
+		tdFecha.innerHTML = fecha;
 		const tdMonto = document.createElement('td');
-		tdMonto.value = monto;
+		tdMonto.innerHTML = monto;
 
 		// Edit icon
 		let icon = document.createElement('i');
 		icon.setAttribute('class', 'material-icons mdc-button__icon');
+		icon.setAttribute('id', nombre);
 		icon.innerHTML = 'edit';
 		icon.classList.add('hoverIcon');
-		const callback = () => {
-			eliminarListaDeListaPrincipal(nombreLista);
-			showSnackbar(`Se elimino ${nombreLista} de las listas`);
-		};
 		icon.addEventListener('click', function (event) {
 			event.stopPropagation();
-			let content = document.createElement('p');
-			content.innerHTML = `¿Está seguro que desea eliminar la lista ${nombreLista}?`;
-			showDialog('Eliminar Lista', content, callback);
+			editarLista(this.id);
 		});
+		const tdIcon = document.createElement('td');
+		tdIcon.appendChild(icon);
+
 
 		// Delete Icon
 		let icon2 = document.createElement('i');
 		icon2.setAttribute('class', 'material-icons mdc-button__icon');
+		icon2.setAttribute('id', nombre);
 		icon2.innerHTML = 'clear';
 		icon2.classList.add('hoverIcon');
 		icon2.addEventListener('click', function (event) {
 			event.stopPropagation();
-			editarLista(nombreLista);
+			eliminarLista(this.id);
 		});
+		const tdIcon2 = document.createElement('td');
+		tdIcon2.appendChild(icon2);
 
-	//	tr.appendChild(tdNombre, tdCat, tdFecha, tdMonto, icon, icon2);\
-		const prueba = document.createElement('td');
-		const prueba2 = document.createElement('td');
-		tr.appendChild(prueba);
-		tr.appendChild(prueba2);
+		tr.appendChild(tdNombre);
+		tr.appendChild(tdCat);
+		tr.appendChild(tdFecha);
+		tr.appendChild(tdMonto);
+		tr.appendChild(tdIcon);
+		tr.appendChild(tdIcon2);
 		tabla.appendChild(tr);
 
 	}
 }
 
-function editarLista(_nombreTx) {
-	console.log("HOLAAA");
+function editarLista(nombreTx) {
+	console.log(nombreTx);
+}
+
+function eliminarLista(nombreTx){
+	const transacciones2 = Sistema.getTransacciones();
+	for (let i = 0; i < transacciones2.length; i++){
+		if (transacciones2[i].getNombre() == nombreTx){
+		transacciones2.splice(i, 1);
+		}
+	}
+	actualizarTabla();
 }
 
 function vaciarCamposTextoAgregar() {
