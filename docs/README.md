@@ -2,7 +2,7 @@
 
 ***
 
-###Link para visualizar:
+### Link para visualizar:
 https://mycom-3.gitbook.io/main/
 
 ### Presentaciones:
