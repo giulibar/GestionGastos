@@ -2,7 +2,16 @@
 
 ***
 
-### Description: Fundamentos de ingenieria de software - Obligatorio 1 - GestionGastos
+###Link para visualizar:
+https://mycom-3.gitbook.io/main/
+
+### Presentaciones:
+#### Vittorio:
+[BOCETOS UI.pptx](https://github.com/ORT-FIS-202108/grupo5-Bardecio-Caiafa-v3/files/7585442/BOCETOS.UI.pptx)
+
+#### Giuliano:
+[BOCETOS UI.pptx](https://github.com/ORT-FIS-202108/grupo5-Bardecio-Caiafa-v3/files/7585443/BOCETOS.UI.pptx)
+
 
 ## Principal
 
