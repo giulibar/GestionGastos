@@ -33,3 +33,12 @@ A la sección "Lista de transacciones" se accede mediante el botón lista de tra
 ### Lista de transacciones
 
 \[adjuntar foto]
+
+## Implementacion: Material Design Web Components
+
+Utilizamos los siguientes componentes para el material design:
+
+* Bottons
+* Table
+* Text Fields
+* ...
