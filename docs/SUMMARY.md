@@ -12,3 +12,8 @@
   * [Bocetos UI](especificacion/bocetos-ui.md)
 * [Validación y verificación](validacion-y-verificacion.md)
 * [Reflexión](reflexion.md)
+
+## Segunda Parte
+
+* [Info](segunda-parte/info.md)
+* [Indice](segunda-parte/indice.md)
