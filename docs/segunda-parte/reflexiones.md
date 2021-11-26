@@ -1,0 +1,5 @@
+# Reflexiones
+
+### Vittorio:
+
+### Giuliano:
