@@ -4,3 +4,6 @@
 
 .
 
+### 100% cobertura en clases de dominio
+
+.

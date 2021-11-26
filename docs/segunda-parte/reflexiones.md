@@ -1,5 +1,13 @@
 # Reflexiones
 
-### Vittorio:
+## Vittorio:
 
-### Giuliano:
+.
+
+## Giuliano:
+
+.
+
+## Técnicas aplicadas y aprendizajes
+
+.

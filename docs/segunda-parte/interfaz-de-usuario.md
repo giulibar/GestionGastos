@@ -1,10 +1,10 @@
 # Interfaz de usuario
 
-### Interfaz de usuario web / mobile (responsive)
+## Interfaz de usuario web / mobile (responsive)
 
 Nuestra idea principal era que fuera responsive pero no se llego a implementar esta característica en el programa, aunque lo único que no es responsive son los botones de la barra de abajo, las cards principales y la lista de transacciones.
 
-### Pagina única con navegación entre secciones
+## Pagina única con navegación entre secciones
 
 Dentro de la pagina se pueden realizar varias funciones dentro de las cuales nos desplazamos sobre las secciones: "Menú", "Agregar", "Lista de transacciones" y "Pagar".
 
@@ -42,3 +42,15 @@ Utilizamos los siguientes componentes para el material design:
 * Table
 * Text Fields
 * ...
+
+## Aplicar un sistema de diseño y principios de usabilidad
+
+.
+
+## Cumplimiento de estándar de accesibilidad WCAG
+
+.
+
+## Seguir especificación de estilo
+
+.

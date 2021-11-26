@@ -6,36 +6,46 @@ description: >-
 
 # Construcción
 
+## Implementacion de funciones principales (sin necesidad de persistencia de datos)
+
 Al comenzar la implementacion de las funciones mas importantes para nuestro proyecto tomamos en cuenta aquellas que eran imprescindibles para que el usuario (las de mayor prioridad desde nuestro punto de vista) de modo que pudiera tener una buena usabilidad e importancia a la hora de utilizarlo.
 
-## Caso de uso 3
+### Caso de uso 3
 
-### Título: Agregar un ingreso/gasto
+#### Título: Agregar un ingreso/gasto
 
-#### Actor: Usuario
-
-Descripción:&#x20;
-
-## Caso de uso 4
-
-### Título: Editar un ingreso/gasto
-
-#### Actor: Usuario
+Actor: Usuario
 
 Descripción:&#x20;
 
-## Caso de uso 5
+### Caso de uso 4
 
-### Título: Eliminar un ingreso/gasto
+#### Título: Editar un ingreso/gasto
 
-#### Actor: Usuario
+Actor: Usuario
+
+Descripción:&#x20;
+
+#### Caso de uso 5
+
+#### Título: Eliminar un ingreso/gasto
+
+Actor: Usuario
 
 Descripción:&#x20;
 
-## Caso de uso 7
+### Caso de uso 7
 
-### Título: Realizar transacción
+#### Título: Realizar transacción
 
-#### Actor: Usuario
+Actor: Usuario
 
 Descripción:&#x20;
+
+## Configuración de plataforma tecnológica para desarrollo y producción
+
+.
+
+## Documentación del uso de librerías externas (package.json)
+
+.
