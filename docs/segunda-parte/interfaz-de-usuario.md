@@ -17,3 +17,19 @@ A la sección "Agregar" se accede mediante el botón agregar y dentro de esta se
 A la sección "Pagar" se accede mediante el botón pagar y dentro de esta se puede realizar pagos a distintas cuentas mediante su wallet iD especificando monto, categoría y descripción las cuales se agregan a la lista de transacciones mediante el botón pagar.
 
 A la sección "Lista de transacciones" se accede mediante el botón lista de transacciones y dentro de ella se pueden ver todas las transacciones que hemos realizado con su respectivo nombre, tipo,  monto, fecha y categoría.
+
+### Menú
+
+\[adjuntar foto]
+
+### Agregar
+
+\[adjuntar foto]
+
+### Pagar
+
+\[adjuntar foto]
+
+### Lista de transacciones
+
+\[adjuntar foto]
