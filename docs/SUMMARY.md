@@ -17,3 +17,4 @@
 
 * [Info](segunda-parte/info.md)
 * [Indice](segunda-parte/indice.md)
+* [Construcción](segunda-parte/construccion.md)
