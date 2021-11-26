@@ -21,5 +21,6 @@
 * [Interfaz de usuario](segunda-parte/interfaz-de-usuario.md)
 * [Codificación](segunda-parte/codificacion.md)
 * [Test Unitario](segunda-parte/test-unitario.md)
+* [Test de sistema](segunda-parte/test-de-sistema.md)
 * [Reporte de Issues](segunda-parte/reporte-de-issues.md)
 * [Reflexiones](segunda-parte/reflexiones.md)
