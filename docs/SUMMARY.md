@@ -19,4 +19,6 @@
 * [Indice](segunda-parte/indice.md)
 * [Construcción](segunda-parte/construccion.md)
 * [Interfaz de usuario](segunda-parte/interfaz-de-usuario.md)
+* [Codificación](segunda-parte/codificacion.md)
+* [Test Unitario](segunda-parte/test-unitario.md)
 * [Reflexiones](segunda-parte/reflexiones.md)
