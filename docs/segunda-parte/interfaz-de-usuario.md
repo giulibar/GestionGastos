@@ -54,4 +54,10 @@ Utilizamos los siguientes componentes para el material design:
 
 ## Seguir especificación de estilo
 
-.
+Anteriormente a realizar el proyecto se nos realizaron una serie de especificaciones para su realizado, muchas de las cuales se respetaron y formalizaron. Estas fueron:
+
+* Nombre de la app: MisGastos
+* Color primario: Deep purple 700
+* Color secundario: Teal 700
+* Font: Roboto
+* Iconos: Filled
