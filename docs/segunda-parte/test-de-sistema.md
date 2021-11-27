@@ -89,8 +89,7 @@ Vittorio Caiafa
 
 #### Division de tareas&#x20;
 
-Duracion: 30 minutos
-
+* Duracion: 30 minutos
 * % Diseño de casos de prueba y ejecución (60%)&#x20;
 * % Investigación y reporte de inconvenientes (30%)&#x20;
 * % Armado de la sesión (10%)
@@ -114,4 +113,4 @@ Duracion: 30 minutos
 
 #### Inconvenientes&#x20;
 
-Me doy cuenta que si voy a agregar un pago y el campo de Wallet iD es vacío agrega igualmente, aunque no busque una cuanta como para pasarle el dinero realmente, esto no esta bueno ya que lo que esta haciendo es mandar un pago a nadie y se me resta de mi balance, no estaría del todo bien.
+* Me doy cuenta que si voy a agregar un pago y el campo de Wallet iD es vacío agrega igualmente, aunque no busque una cuanta como para pasarle el dinero realmente, esto no esta bueno ya que lo que esta haciendo es mandar un pago a nadie y se me resta de mi balance, no estaría del todo bien.
