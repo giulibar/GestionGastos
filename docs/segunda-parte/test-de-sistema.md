@@ -107,6 +107,11 @@ Duracion: 30 minutos
 
 * N/A
 
-Defectos BUG-01: Si voy de mi seccion agregar a cualquier otra el boton switch sigue en su lugar por un segundo y luego se va BUG-02: Se cambia el titulo de la seccion agregar de "Agregar" a "Editar" una vez edito una transaccion cualquiera, y queda asi por el resto de la sesion
+#### Defectos
 
-Inconvenientes Me doy cuenta que si voy a agregar un pago y el campo de Wallet iD es vacio agrega igualmente, aunque no busque una cuanta como para pasarle el dinero realmente, esto no esta bueno ya que lo que esta haciendo es mandar un pago a nadie y se me resta de mi balance, no estaria del todo bien
+* BUG-01: Si voy de mi seccion agregar a cualquier otra el boton switch sigue en su lugar por un segundo y luego se va
+* BUG-02: Se cambia el titulo de la seccion agregar de "Agregar" a "Editar" una vez edito una transaccion cualquiera, y queda asi por el resto de la sesion
+
+#### Inconvenientes&#x20;
+
+Me doy cuenta que si voy a agregar un pago y el campo de Wallet iD es vacío agrega igualmente, aunque no busque una cuanta como para pasarle el dinero realmente, esto no esta bueno ya que lo que esta haciendo es mandar un pago a nadie y se me resta de mi balance, no estaría del todo bien.
