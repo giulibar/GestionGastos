@@ -65,23 +65,47 @@ El agregado tiene 5 entradas que el usuario debe completar:
 
 ## Detallar sesiones de prueba exploratoria
 
-Mision Realizar un test general del programa para encontrar posibles fallos y mejoras del mismo
+#### Misión
 
-Areas OS | Windows 10 Navegador | Chrome version 78 Funcionalidad | Todas Estrategia | Testing Exploratorio
+Realizar un test general del programa para encontrar posibles fallos y mejoras del mismo
 
-Tiempo de sesion 27/11/2021 18:36
+#### Áreas&#x20;
 
-Tester Vittorio Caiafa
+OS | Windows 10&#x20;
 
-Division de tareas Duracion: 30 minutos
+Navegador | Chrome version 78&#x20;
 
-% Diseño de casos de prueba y ejecución (60%) % Investigación y reporte de inconvenientes (30%) % Armado de la sesión (10%)
+Funcionalidad | Todas&#x20;
+
+Estrategia | Testing Exploratorio
+
+#### Tiempo de sesión&#x20;
+
+27/11/2021 18:36
+
+#### Tester&#x20;
+
+Vittorio Caiafa
+
+#### Division de tareas&#x20;
+
+Duracion: 30 minutos
+
+* % Diseño de casos de prueba y ejecución (60%)&#x20;
+* % Investigación y reporte de inconvenientes (30%)&#x20;
+* % Armado de la sesión (10%)
 
 % Mision de la sesion (90% / 10%)
 
-Notas de prueba Agrego varios productos a mi lista de transacciones Agrego un par de pagos Me fijo que todas las posibilidades erroneas para agregar funcionan bien Edito varias de las trasnsacciones Elimino varias de las trasnsacciones
+#### Notas de prueba
 
-Riesgos N/A
+* Agrego varios productos a mi lista de transacciones&#x20;
+* Agrego un par de pagos Me fijo que todas las posibilidades erróneas para agregar funcionan bien Edito varias de las transacciones&#x20;
+* Elimino varias de las transacciones
+
+#### Riesgos&#x20;
+
+* N/A
 
 Defectos BUG-01: Si voy de mi seccion agregar a cualquier otra el boton switch sigue en su lugar por un segundo y luego se va BUG-02: Se cambia el titulo de la seccion agregar de "Agregar" a "Editar" una vez edito una transaccion cualquiera, y queda asi por el resto de la sesion
 
