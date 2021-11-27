@@ -44,7 +44,9 @@ Descripción: El sistema debería poder realizar un pago a otra cuenta con su wa
 
 ## Configuración de plataforma tecnológica para desarrollo y producción
 
-.
+Para el trabajo se utilizo VS Code con la extensión de 'Live Share' así pudiendo trabajar ambos dentro de el mismo archivo actualizándose paralelamente y pudiendo ver lo que hace el otro al instante en que lo hace manteniendo así un orden y progreso del código del proyecto.
+
+Creamos un repo de GitHub dentro del cual si alguien avanzaba de manera individual lo que se hacia era pushear los cambios y así estar al día siempre y poder avanzar de manera correcta sin repetir cosas.
 
 ## Documentación del uso de librerías externas (package.json)
 
