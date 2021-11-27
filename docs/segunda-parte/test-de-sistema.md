@@ -71,21 +71,18 @@ Realizar un test general del programa para encontrar posibles fallos y mejoras d
 
 #### Áreas&#x20;
 
-OS | Windows 10&#x20;
-
-Navegador | Chrome version 78&#x20;
-
-Funcionalidad | Todas&#x20;
-
-Estrategia | Testing Exploratorio
+* OS | Windows 10&#x20;
+* Navegador | Chrome version 78&#x20;
+* Funcionalidad | Todas&#x20;
+* Estrategia | Testing Exploratorio
 
 #### Tiempo de sesión&#x20;
 
-27/11/2021 18:36
+* 27/11/2021 18:36
 
 #### Tester&#x20;
 
-Vittorio Caiafa
+* Vittorio Caiafa
 
 #### Division de tareas&#x20;
 
