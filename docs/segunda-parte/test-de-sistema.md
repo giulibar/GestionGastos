@@ -1,13 +1,13 @@
 # Test de sistema
 
-### Realizar test de sistema en un entorno separado del desarrollo
+## Realizar test de sistema en un entorno separado del desarrollo
 
 .
 
-### Generar casos de prueba aplicando técnica partición equivalente
+## Generar casos de prueba aplicando técnica partición equivalente
 
 .
 
-### Detallar sesiones de prueba exploratoria
+## Detallar sesiones de prueba exploratoria
 
 .
