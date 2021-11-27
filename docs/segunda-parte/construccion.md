@@ -16,7 +16,7 @@ Al comenzar la implementacion de las funciones mas importantes para nuestro proy
 
 Actor: Usuario
 
-Descripción:&#x20;
+Descripción: El sistema debería poder agregar un gasto o ingreso con su respectivo nombre, monto, categoría y descripción, actualizándose así el balance y los ingresos o gastos totales de la cuenta.
 
 ### Caso de uso 4
 
@@ -24,7 +24,7 @@ Descripción:&#x20;
 
 Actor: Usuario
 
-Descripción:&#x20;
+Descripción: El sistema debería poder editar un gasto o ingreso pudiéndole cambiar su nombre, monto, categoría y descripción asignados anteriormente, actualizándose con los nuevos datos el balance y los ingresos o gastos totales de la cuenta.
 
 #### Caso de uso 5
 
@@ -32,7 +32,7 @@ Descripción:&#x20;
 
 Actor: Usuario
 
-Descripción:&#x20;
+Descripción: El sistema debería poder eliminar un gasto o ingreso quitándolo de la lista de transacciones y luego actualizándose con los nuevos datos el balance y los ingresos o gastos totales de la cuenta.
 
 ### Caso de uso 7
 
@@ -40,7 +40,7 @@ Descripción:&#x20;
 
 Actor: Usuario
 
-Descripción:&#x20;
+Descripción: El sistema debería poder realizar un pago a otra cuenta con su wallet iD enviándole cierto monto, con su respectiva categoría, actualizándose con los nuevos datos el balance y los ingresos o gastos totales de la cuenta.
 
 ## Configuración de plataforma tecnológica para desarrollo y producción
 

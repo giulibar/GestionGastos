@@ -20,19 +20,19 @@ A la sección "Lista de transacciones" se accede mediante el botón lista de tra
 
 ### Menú
 
-\[adjuntar foto]
+![](<../.gitbook/assets/menu (1).png>)
 
 ### Agregar
 
-\[adjuntar foto]
+![](../.gitbook/assets/agregar.png)
 
 ### Pagar
 
-\[adjuntar foto]
+![](../.gitbook/assets/pagar.png)
 
 ### Lista de transacciones
 
-\[adjuntar foto]
+![](<../.gitbook/assets/lista de transacciones.png>)
 
 ## Implementacion: Material Design Web Components
 
@@ -41,6 +41,7 @@ Utilizamos los siguientes componentes para el material design:
 * Bottons
 * Table
 * Text Fields
+* Switch botton
 * ...
 
 ## Aplicar un sistema de diseño y principios de usabilidad

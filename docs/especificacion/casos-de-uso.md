@@ -160,7 +160,7 @@
 
 5\. 4. El usuario no posee contactos, por lo tanto, no puede hacer una transacción
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 ## Caso de uso 8
 
