@@ -6,7 +6,9 @@ Para codificar la pagina se utilizo Visual Studio Code con la extensión de "Sha
 
 ### Estándares de codificación Google (HTML, CSS, JS)
 
-.
+Dentro de los lenguajes utilizados para realizar este proyecto nos encontramos con varios de los cuales ya habíamos visto en semestres anteriores, de dicha manera pudimos utilizar nuestros conocimientos previos para el desarrollo de la pagina siendo estos de gran ayuda.
+
+
 
 ### Buenas practicas de OOP: Separación de lógica e interfaz
 
