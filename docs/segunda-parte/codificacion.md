@@ -16,7 +16,9 @@ Dentro de los lenguajes utilizados para realizar este proyecto nos encontramos c
 
 ## Buenas practicas de OOP: Separación de lógica e interfaz
 
-En nuestro proyecto separamos las distintas lógicas en carpetas diferentes siendo una 'dominio' y la otra 'interfaz'. Dentro de la carpeta 'dominio' se pueden encontrar todas las funciones que hacen que la pagina funcione pudiendo agregar gastos, ingresos, los mismos ponerlos en la tabla de transacciones, etc. Luego la carpeta 'interfaz' posee todo lo que decora mi sistema de modo de visualizar de mejor forma sus elementos, teniendo un documento .html y otro .css los cuales especifican cada característica de mi pagina con sus respectivos id's para el funcionamiento posterior.
+En nuestro proyecto separamos las distintas lógicas en carpetas diferentes siendo una 'dominio' y la otra 'interfaz'. Dentro de la carpeta 'dominio' se debería poder encontrar todas las funciones que hacen que la pagina funcione pudiendo agregar gastos, ingresos, los mismos ponerlos en la tabla de transacciones, etc. Luego la carpeta 'interfaz' posee todo lo que decora mi sistema de modo de visualizar de mejor forma sus elementos, teniendo un documento .html y otro .css los cuales especifican cada característica de mi pagina con sus respectivos id's para el funcionamiento posterior.
+
+En nuestro caso la carpeta scripts con todos los archivos .js fue posicionada dentro de la carpeta de 'interfaz' sin intención de ser puesta allí, pero debería estar en la de 'dominio'.
 
 ## Análisis estático de código: Mostrar reducción de problemas
 
