@@ -17,7 +17,8 @@ Ademas de esto es bueno saber la severidad, pasos a seguir, lo que pasa, lo que 
 
 ## Definir labels para tipos de issue y niveles de severidad
 
-.
+* Bug: cuando sucede algo que no es lo esperado
+* Code: algo que nos hubiera gustado cambiar del código
 
 ## Dejar issues abiertos para correcciones o mejoras futuras
 
