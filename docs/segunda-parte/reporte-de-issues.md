@@ -2,7 +2,7 @@
 
 ## Reportar issues (bugs, improvements, missing features) en GitHub
 
-.
+Se reportaron los mismos en la pestaña 'issues' del GitHub.
 
 ## Aplicar buenas practicas de reporte de issues
 
