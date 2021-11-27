@@ -96,7 +96,9 @@ Realizar un test general del programa para encontrar posibles fallos y mejoras d
 #### Notas de prueba
 
 * Agrego varios productos a mi lista de transacciones&#x20;
-* Agrego un par de pagos Me fijo que todas las posibilidades erróneas para agregar funcionan bien Edito varias de las transacciones&#x20;
+* Agrego un par de pagos&#x20;
+* Me fijo que todas las posibilidades erróneas para agregar funcionan bien&#x20;
+* Edito varias de las transacciones&#x20;
 * Elimino varias de las transacciones
 
 #### Riesgos&#x20;
