@@ -46,7 +46,7 @@ Utilizamos los siguientes componentes para el material design:
 
 ## Aplicar un sistema de diseño y principios de usabilidad
 
-.
+Se representó la pagina mediante cards en el menú y una barra de botones debajo (a los cuales puedo acceder desde cualquier card) haciendo de esta manera que sea muy sencilla de usar con dibujos representativos en los botones o texto explicito para un entendimiento completo del usuario.&#x20;
 
 ## Cumplimiento de estándar de accesibilidad WCAG
 
