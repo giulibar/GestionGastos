@@ -20,4 +20,4 @@ Verificamos entre los integrantes del grupo para comprobar que lo que estábamos
 
 ## Posible estructura del sistema:
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (12) (1).png>)
