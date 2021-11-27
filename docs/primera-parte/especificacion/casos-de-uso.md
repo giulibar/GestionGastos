@@ -19,7 +19,7 @@
 
 3\. 2. El usuario intenta iniciar sesión con un perfil que no existe o la contraseña es incorrecta: aparece un mensaje de alerta diciendo que los datos son incorrectos.
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5).png>)
 
 ## Caso de uso 2
 
@@ -43,7 +43,7 @@
 
 5\. 3. El usuario intenta registrarse con un correo de una cuenta ya existente: aparece un mensaje de error notificando que existe una cuenta asociada a ese correo.
 
-![](<../.gitbook/assets/image (12) (1).png>)
+![](<../../.gitbook/assets/image (12) (1).png>)
 
 ## Caso de uso 3
 
@@ -65,7 +65,7 @@
 
 5\. 2. El usuario intenta agregar un ingreso o un gasto con monto negativo: aparece un mensaje de alerta diciendo que no puede ingresar montos negativos.
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3).png>)
 
 ## Caso de uso 4
 
@@ -90,7 +90,7 @@
 
 7\. 2. El usuario edita los datos y sale sin guardar los cambios
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7).png>)
 
 ## Caso de uso 5
 
@@ -111,7 +111,7 @@
 
 5\. 1. No hay transacciones para eliminar
 
-![](../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image.png)
 
 ## Caso de uso 6
 
@@ -134,7 +134,7 @@
 
 6\. 1. El usuario coloca un código de un usuario que no existe: el sistema muestra un mensaje diciendo que no existe ningún usuario con ese código
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13).png>)
 
 ## Caso de uso 7
 
@@ -160,7 +160,7 @@
 
 5\. 4. El usuario no posee contactos, por lo tanto, no puede hacer una transacción
 
-![](<../.gitbook/assets/image (6) (1).png>)
+![](<../../.gitbook/assets/image (6) (1).png>)
 
 ## Caso de uso 8
 
@@ -181,4 +181,4 @@
 
 5\. 1. El usuario no coloca un nombre de grupo: el sistema despliega un mensaje de error notificando que le faltan ingresar datos
 
-![](<../.gitbook/assets/image (14) (1).png>)
+![](<../../.gitbook/assets/image (14) (1).png>)

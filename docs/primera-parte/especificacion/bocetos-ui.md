@@ -4,8 +4,8 @@ Para los bocetos ui utilizamos la pagina Figma.com de la cual tuvimos que ir apr
 
 ## Interfaz de usuario en modo claro
 
-![](<../.gitbook/assets/unknown (1).png>)
+![](<../../.gitbook/assets/unknown (1).png>)
 
 ## Interfaz de usuario en modo oscuro
 
-![](../.gitbook/assets/unknown2.png)
+![](../../.gitbook/assets/unknown2.png)

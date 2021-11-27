@@ -13,10 +13,10 @@ Nos basamos en la aplicación [mobills](https://www.mobillsapp.com/es) que anter
 
 ### Conclusiones de Ingeniería inversa:
 
-* En la pantalla principal podemos: 
+* En la pantalla principal podemos:&#x20;
   * Agregar un ingreso/gasto de forma intuitiva y fácil mediante iconos
   * Ver el saldo actual de la cuenta
-  * Ver los gastos/ingresos 
+  * Ver los gastos/ingresos&#x20;
 * A cada ingreso/gasto se le puede adjuntar una descripción
 * Para cada ingreso/gasto se puede elegir una categoría, así como: comida, ropa, inversión, etc.
 * Mostrar gráfico con gastos e ingresos por categoría
@@ -52,7 +52,7 @@ La entrevista es una manera de obtener información sobre un tema especifico que
 
 6\) ¿Que métodos de pago utiliza mas frecuentemente?
 
-7\) ¿Ve útil una aplicación que le de consejos de ahorro e inversión? 
+7\) ¿Ve útil una aplicación que le de consejos de ahorro e inversión?&#x20;
 
 ### Conclusiones de la entrevista:
 
@@ -71,11 +71,11 @@ Luego de realizar las entrevistas concluimos con que para esta app se podrían d
 
 ### Personal
 
-![](.gitbook/assets/delfina.png)
+![](../.gitbook/assets/delfina.png)
 
 ### Empresa
 
-![](.gitbook/assets/empresa.png)
+![](../.gitbook/assets/empresa.png)
 
 ## Fuentes de información
 
