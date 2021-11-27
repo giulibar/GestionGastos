@@ -32,7 +32,7 @@ A la sección "Lista de transacciones" se accede mediante el botón lista de tra
 
 ### Lista de transacciones
 
-![](<../.gitbook/assets/lista de transacciones.png>)
+![Se agregó un pago como ejemplo para visualizar la representación](<../.gitbook/assets/lista de transacciones.png>)
 
 ## Implementacion: Material Design Web Components
 
