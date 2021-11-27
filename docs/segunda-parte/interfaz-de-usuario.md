@@ -54,6 +54,7 @@ Se cumple con los estándares de accesibilidad WCAG. Algunos de ellos son:
 
 * Información natural como textos, imágenes y sonidos.
 * Código o marcado que define la estructura, la presentación, etc.
+* ...
 
 Entre otros, aunque estos nos parecían los mas importantes a destacar.
 
