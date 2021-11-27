@@ -22,6 +22,6 @@ En nuestro caso la carpeta scripts con todos los archivos .js fue posicionada de
 
 ## Análisis estático de código: Mostrar reducción de problemas
 
-.
+Si se visualiza el archivo index.js dentro del proyecto se puede visualizar que cada función tiene un comentario encima declarando que hace y su nombre ya sea para explicación o para guiamiento del propio lector del código. Ademas, dentro de las funciones también se pueden encontrar comentarios para una mejor lectura y entendimiento de las mismas, estando todo bien organizado y declarado de arriba a abajo.
 
 ###
