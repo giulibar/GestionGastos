@@ -54,7 +54,7 @@ Se representó la pagina mediante cards en el menú y una barra de botones debaj
 
 Se cumple con los estándares de accesibilidad WCAG.&#x20;
 
-* Perceptible:&#x20;
+* Perceptible: El contenido de la app es muy fácil de ver ya que posee imágenes grandes con dibujos explicativos.
 * Operable:&#x20;
 * Entendible:&#x20;
 * Robusto:&#x20;
