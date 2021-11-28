@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1637615369299" clover="3.2.0">
+  <project timestamp="1637615369299" name="All files">
+    <metrics statements="42" coveredstatements="37" conditionals="12" coveredconditionals="12" methods="21" coveredmethods="16" elements="75" coveredelements="65" complexity="0" loc="42" ncloc="42" packages="1" files="4" classes="4"/>
+    <file name="sintaxisAgregar.js" path="C:\Users\giuli\Semestre 4\Fundamentos de Ingenieria\grupo5-Bardecio-Caiafa-v3\src\dominio\sintaxisAgregar.js">
+      <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <line num="2" count="6" type="stmt"/>
+      <line num="3" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="10" count="6" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+    </file>
+    <file name="sintaxisPagar.js" path="C:\Users\giuli\Semestre 4\Fundamentos de Ingenieria\grupo5-Bardecio-Caiafa-v3\src\dominio\sintaxisPagar.js">
+      <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <line num="2" count="5" type="stmt"/>
+      <line num="3" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="8" count="5" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+    <file name="sistema.js" path="C:\Users\giuli\Semestre 4\Fundamentos de Ingenieria\grupo5-Bardecio-Caiafa-v3\src\dominio\sistema.js">
+      <metrics statements="12" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="7"/>
+      <line num="5" count="5" type="stmt"/>
+      <line num="6" count="5" type="stmt"/>
+      <line num="7" count="5" type="stmt"/>
+      <line num="8" count="5" type="stmt"/>
+      <line num="13" count="3" type="stmt"/>
+      <line num="17" count="3" type="stmt"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="25" count="2" type="stmt"/>
+      <line num="29" count="3" type="stmt"/>
+      <line num="33" count="2" type="stmt"/>
+      <line num="37" count="0" type="stmt"/>
+      <line num="41" count="0" type="stmt"/>
+    </file>
+    <file name="transaccion.js" path="C:\Users\giuli\Semestre 4\Fundamentos de Ingenieria\grupo5-Bardecio-Caiafa-v3\src\dominio\transaccion.js">
+      <metrics statements="14" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="7"/>
+      <line num="4" count="8" type="stmt"/>
+      <line num="5" count="8" type="stmt"/>
+      <line num="6" count="8" type="stmt"/>
+      <line num="7" count="8" type="stmt"/>
+      <line num="8" count="8" type="stmt"/>
+      <line num="12" count="8" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="20" count="8" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="28" count="8" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="36" count="0" type="stmt"/>
+      <line num="40" count="8" type="stmt"/>
+      <line num="44" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

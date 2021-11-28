@@ -1,0 +1,19 @@
+{
+  "name": "dominio",
+  "jest": {
+    "verbose": true
+  },
+  "version": "1.0.0",
+  "description": "Domino de la web app Verdulista",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Tomas Amado, Romina Giaccio, Rodrigo Gonzalez",
+  "license": "",
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.5",
+    "eslint": "^7.28.0",
+    "jest": "^26.6.3"
+  }
+}
