@@ -2,7 +2,7 @@
 
 ## Realizar test de sistema en un entorno separado del desarrollo
 
-.
+Para realizar el test del sistema se realizaron varioas pruebas en las cuales se ejecutaron todos los posibles checkeos y los posibles errores que el usuario pudiera cometer para agregar un gasto o un ingreso, por lo que en la primera el usuario realiza mal el ingreso de nombre y monto (los cuales no pueden ser vacios ni igual o menor a cero, en caso del monto), luego otra en que el nombre es erroneo pero el monto e scorrecto, otra mas la cual posee su monto bien y el nombre defectuoso y por ultimo una que exitosamente se logra agregar ya que posee las caracteristicas necesarias como para que esto suceda.
 
 ## Generar casos de prueba aplicando técnica partición equivalente
 
