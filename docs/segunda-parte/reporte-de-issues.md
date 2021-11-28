@@ -8,9 +8,11 @@ Se reportaron los mismos en la pestaña 'issues' del GitHub.
 
 Para el reporte de issues nos guiamos por las presentaciones en clase dadas por los compañeros y por las propias ppts brindadas por el docente, de los mismos hay que tener en cuenta:
 
-* Donde suceden
-* Cuando suceden
-* Que sucede
+* Resumen
+* Plataforma
+* Prioridad
+* Pasos a seguir
+* Resultado actual
 * Resultado esperado
 
 Ademas de esto es bueno saber la severidad, pasos a seguir, lo que pasa, lo que se esperaría que pase y alguna representación para ver visualmente el problema.
