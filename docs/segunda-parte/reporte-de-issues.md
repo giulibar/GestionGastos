@@ -15,7 +15,7 @@ Para el reporte de issues nos guiamos por las presentaciones en clase dadas por 
 * Resultado actual
 * Resultado esperado
 
-Ademas de esto es bueno saber la severidad, pasos a seguir, lo que pasa, lo que se esperaría que pase y alguna representación para ver visualmente el problema.
+Todos estos puntos son muy importantes y de severa relevancia para cada reporte.
 
 ## Definir labels para tipos de issue y niveles de severidad
 
