@@ -33,6 +33,8 @@ Dentro del GitHub se pueden ver los issues abiertos para los cuales nos hubiera 
 * Help wanted: 2
 * Documentation: 1
 
+La mayoría de los mismos son bugs o cosas que hace el programa que realmente no queríamos que realizara ya sea por falta de código o por errores  que simplemente son irreparables.
+
 ## Realizar una evaluación global de la calidad
 
 En general el proyecto es de buen nivel teniendo una interfaz gráfica muy llamativa a la vista haciendo que el usuario realmente quiera saber de que trata y utilizarlo de manera de poder saber si le puede servir de algo. Una vez el usuario domine esta aplicación podrá agregar sus gastos e ingresos rápidamente teniendo un acceso y registro de los mismos para visualizar cuando el mismo quisiera.
