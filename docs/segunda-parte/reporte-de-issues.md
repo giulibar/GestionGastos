@@ -29,9 +29,12 @@ Dentro del GitHub se pueden ver los issues abiertos para los cuales nos hubiera 
 
 ## Sumarizar numero de issues reportados por tipo
 
-* Bug: 2&#x20;
-* Help wanted: 2
+* Bug: 4
+* Help wanted: 4
 * Documentation: 1
+* Enhacement: 1
+* Good first issue: 1
+* Invalid: 1
 
 La mayoría de los mismos son bugs o cosas que hace el programa que realmente no queríamos que realizara ya sea por falta de código o por errores  que simplemente son irreparables.
 
