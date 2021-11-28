@@ -2,7 +2,7 @@
 
 ## Realizar test de sistema en un entorno separado del desarrollo
 
-Para realizar el test del sistema se realizaron varioas pruebas en las cuales se ejecutaron todos los posibles checkeos y los posibles errores que el usuario pudiera cometer para agregar un gasto o un ingreso, por lo que en la primera el usuario realiza mal el ingreso de nombre y monto (los cuales no pueden ser vacios ni igual o menor a cero, en caso del monto), luego otra en que el nombre es erroneo pero el monto e scorrecto, otra mas la cual posee su monto bien y el nombre defectuoso y por ultimo una que exitosamente se logra agregar ya que posee las caracteristicas necesarias como para que esto suceda.
+Para realizar el test del sistema se realizaron varias pruebas en las cuales se ejecutaron todos los posibles checkeos y los posibles errores que el usuario pudiera cometer para agregar un gasto o un ingreso, por lo que en la primera el usuario realiza mal el ingreso de nombre y monto (los cuales no pueden ser vacíos ni igual o menor a cero, en caso del monto), luego otra en que el nombre es erróneo pero el monto e correcto, otra mas la cual posee su monto bien y el nombre defectuoso y por ultimo una que exitosamente se logra agregar ya que posee las características necesarias como para que esto suceda.
 
 Luego, para el segundo test del sistema se hizo un checkeo de simplemente el monto que el pago va a poseer, por lo cual realizamos varios en que el monto es inaceptable ya sea porque es negativo o cero y otro correcto en el cual el monto es positivo.
 
