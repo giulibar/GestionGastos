@@ -50,4 +50,30 @@ Creamos un repo de GitHub dentro del cual si alguien avanzaba de manera individu
 
 ## Documentación del uso de librerías externas (package.json)
 
-Las librerías utilizadas en el proyecto fueron las brindadas por el profesor, de las cuales no fue necesario importar una externa como para soportar nuestra página.
+Las librerías utilizadas en el proyecto fueron las brindadas por el profesor, ademas de algunas otras que personalmente las necesitábamos como para satisfacer el 100% nuestras necesidades del armado de la app. A continuación la documentación de las mismas:
+
+Dependencies:
+
+* "@material/dialog": "^11.0.0"
+* "@material/snackbar": "^11.0.0"
+* "@material/switch": "^13.0.0"
+* "@material/textfield": "^11.0.0"
+* "material-components-web": "^11.0.0"
+
+DevDependencies:
+
+* "@babel/core": "^7.13.16"
+* "@babel/preset-env": "^7.13.15"
+* "autoprefixer": "^10.2.5"
+* "babel-loader": "^8.2.2"
+* "css-loader": "^5.2.4"
+* "eslint": "^7.28.0"
+* "extract-loader": "^5.1.0"
+* "file-loader": "^6.2.0"
+* "jest": "^27.3.1"
+* "postcss-loader": "^5.2.0"
+* "sass": "^1.32.11"
+* "sass-loader": "^11.0.1"
+* "webpack": "^5.36.0"
+* "webpack-cli": "^4.6.0"
+* "webpack-dev-server": "^3.11.2"
