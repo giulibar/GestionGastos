@@ -52,13 +52,12 @@ Se representó la pagina mediante cards en el menú y una barra de botones debaj
 
 ## Cumplimiento de estándar de accesibilidad WCAG
 
-Se cumple con los estándares de accesibilidad WCAG. Algunos de ellos son:
+Se cumple con los estándares de accesibilidad WCAG.&#x20;
 
-* Información natural como textos, imágenes y sonidos.
-* Código o marcado que define la estructura, la presentación, etc.
-* ...
-
-Entre otros, aunque estos nos parecían los mas importantes a destacar.
+* Perceptible:&#x20;
+* Operable:&#x20;
+* Entendible&#x20;
+* Robusto:&#x20;
 
 ## Seguir especificación de estilo
 
