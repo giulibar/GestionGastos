@@ -38,11 +38,13 @@ A la sección "Lista de transacciones" se accede mediante el botón lista de tra
 
 Utilizamos los siguientes componentes para el material design:
 
+* Top app bar
 * Bottons
 * Table
 * Text Fields
+* Integer fields
 * Switch botton
-* ...
+* Alert boxes
 
 ## Aplicar un sistema de diseño y principios de usabilidad
 
