@@ -50,4 +50,4 @@ Creamos un repo de GitHub dentro del cual si alguien avanzaba de manera individu
 
 ## Documentación del uso de librerías externas (package.json)
 
-.
+Las librerías utilizadas en el proyecto fueron las brindadas por el profesor, de las cuales no fue necesario importar una externa como para soportar nuestra página.
