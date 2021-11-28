@@ -56,7 +56,7 @@ Se cumple con los estándares de accesibilidad WCAG.&#x20;
 
 * Perceptible: El contenido de la app es muy fácil de ver ya que posee imágenes grandes con dibujos explicativos.
 * Operable: Su uso es muy sencillo ya que se precisa simplemente un mouse y algo con lo que digitar numero y letras (ya sea un teclado físico o digital).
-* Entendible:&#x20;
+* Entendible: El texto utilizado en los diferentes apartados es muy corto y preciso para que el usuario no tenga duda en que hace cada cosa del programa. Ademas, si el mismo se equivoca en algun ingreso de datos el programa le indicara que hacer y cual fue el problema.
 * Robusto:&#x20;
 
 ## Seguir especificación de estilo
