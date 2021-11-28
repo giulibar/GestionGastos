@@ -6,7 +6,7 @@
 
 ## Generar casos de prueba aplicando técnica partición equivalente
 
-### 1) Agregar (o editar) ingreso o gasto
+### 1) Agregar (o editar) ingreso/gasto
 
 El agregado tiene 5 entradas que el usuario debe completar:
 
