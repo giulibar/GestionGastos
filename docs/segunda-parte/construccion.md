@@ -26,7 +26,7 @@ Actor: Usuario
 
 Descripción: El sistema debería poder editar un gasto o ingreso pudiéndole cambiar su nombre, monto, categoría y descripción asignados anteriormente, actualizándose con los nuevos datos el balance y los ingresos o gastos totales de la cuenta.
 
-#### Caso de uso 5
+### Caso de uso 5
 
 #### Título: Eliminar un ingreso/gasto
 
