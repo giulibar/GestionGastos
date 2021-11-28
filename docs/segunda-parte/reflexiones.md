@@ -10,4 +10,4 @@ Realmente siento que haber tenido esta materia me ha hecho ver la tecnología co
 
 ## Técnicas aplicadas y aprendizajes
 
-En cuanto a las técnicas aplicadas, básicamente utilizamos el ejemplo de otro obligatorio como para comenzar y luego ir estructurando como nosotros queríamos a medida que íbamos avanzando. Cuando queríamos agregar algo que necesitabamos buscabamos en&#x20;
+En cuanto a las técnicas aplicadas, básicamente utilizamos el ejemplo de otro obligatorio como para comenzar y luego ir estructurando como nosotros queríamos a medida que íbamos avanzando. Cuando queríamos agregar algo que necesitábamos buscábamos en material.io lo que mas se acercase a lo que estuviésemos buscando y luego lo ajustábamos de la mejor manera para que cumpla con las características del proyecto, teniendo en cuenta los colores y demás. Lo aprendido durante este trabajo fue mucho ya que pasamos de no conocer GitHub a tener una idea muy clara de para que y como se usa el mismo, teniendo planeado usarlo a futuro.
