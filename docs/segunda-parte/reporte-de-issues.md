@@ -25,7 +25,7 @@ Todos estos puntos son muy importantes y de severa relevancia para cada reporte.
 
 ## Dejar issues abiertos para correcciones o mejoras futuras
 
-Dentro del GitHub se pueden ver los issues abiertos para los cuales nos hubiera gustado poder hacer antes del code freeze.
+Dentro del GitHub se pueden ver los issues abiertos para los cuales nos hubiera gustado poder hacer antes del code freeze pero que quedan allí como para reparar y echarles un vistazo.
 
 ## Sumarizar numero de issues reportados por tipo
 
