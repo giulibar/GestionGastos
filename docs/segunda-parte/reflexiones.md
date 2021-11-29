@@ -6,6 +6,12 @@ Realmente siento que haber tenido esta materia me ha hecho ver la tecnología co
 
 ## Giuliano:
 
+La realización de este proyecto me sirvió mucho y me aporto muchos conocimientos en diversas areas que ahora me parecen imprescindibles, desde la organización en equipo, comandos git, técnicas de elicitacion y la importancia de tener un feedback constante con el cliente hasta llevar a cabo el diseño y desarrollo de un producto real que cumpla con los requerimientos definidos.
+
+También me sirvió para refrescar areas en las cuales no estaba del todo actualizado como diseño web, estándares de estilo con Material Design, HTML y CSS. También aprendí sobre las librerías externas, si bien ya las había utilizado antes me clarifico muchas dudas, la importancia de realizar test a cada funcionalidad del sistema para poder desarrollar de manera optima a la hora de trabajar en equipo y también el manejo de issues en GitHub.
+
+En general me pareció un proyecto muy enriquecedor por todas las tecnologías **útiles** que aprendí y que indudablemente aplicare a otros proyectos.
+
 .
 
 ## Técnicas aplicadas y aprendizajes
